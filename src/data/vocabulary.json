@@ -1,0 +1,602 @@
+[
+  {
+    "id": "w-namaste",
+    "hindi": "namaste",
+    "variants": ["namaste", "namastey", "namasthe"],
+    "spanish": "hola / saludo",
+    "ipa": "nə.məs.ˈteː",
+    "category": "introducciones",
+    "exampleHi": "Namaste, aap kaise hain?",
+    "exampleEs": "Hola, ¿cómo está usted?"
+  },
+  {
+    "id": "w-naam",
+    "hindi": "naam",
+    "variants": ["naam", "nam"],
+    "spanish": "nombre",
+    "ipa": "naːm",
+    "category": "introducciones",
+    "exampleHi": "Mera naam Ana hai.",
+    "exampleEs": "Mi nombre es Ana."
+  },
+  {
+    "id": "w-mera",
+    "hindi": "mera",
+    "variants": ["mera", "meraa"],
+    "spanish": "mi / mío",
+    "ipa": "meː.raː",
+    "category": "introducciones",
+    "exampleHi": "Yah mera ghar hai.",
+    "exampleEs": "Esta es mi casa."
+  },
+  {
+    "id": "w-aap",
+    "hindi": "aap",
+    "variants": ["aap", "ap"],
+    "spanish": "usted",
+    "ipa": "aːp",
+    "category": "introducciones",
+    "exampleHi": "Aap kahan se hain?",
+    "exampleEs": "¿De dónde es usted?"
+  },
+  {
+    "id": "w-kaise",
+    "hindi": "kaise",
+    "variants": ["kaise", "kaisey"],
+    "spanish": "cómo",
+    "ipa": "kɛː.seː",
+    "category": "introducciones",
+    "exampleHi": "Tum kaise ho?",
+    "exampleEs": "¿Cómo estás?"
+  },
+  {
+    "id": "w-theek",
+    "hindi": "theek",
+    "variants": ["theek", "thik"],
+    "spanish": "bien",
+    "ipa": "ʈʰiːk",
+    "category": "introducciones",
+    "exampleHi": "Main theek hoon.",
+    "exampleEs": "Estoy bien."
+  },
+  {
+    "id": "w-dhanyavaad",
+    "hindi": "dhanyavaad",
+    "variants": ["dhanyavaad", "dhanyavad", "dhanyawad"],
+    "spanish": "gracias",
+    "ipa": "d̪ʱən.jə.ʋaːd̪",
+    "category": "introducciones",
+    "exampleHi": "Dhanyavaad, phir milenge.",
+    "exampleEs": "Gracias, nos vemos."
+  },
+  {
+    "id": "w-haan",
+    "hindi": "haan",
+    "variants": ["haan", "han"],
+    "spanish": "sí",
+    "ipa": "ɦãː",
+    "category": "introducciones",
+    "exampleHi": "Haan, main aa raha hoon.",
+    "exampleEs": "Sí, estoy llegando."
+  },
+  {
+    "id": "w-nahin",
+    "hindi": "nahin",
+    "variants": ["nahin", "nahi", "nahee"],
+    "spanish": "no",
+    "ipa": "nə.ɦĩː",
+    "category": "introducciones",
+    "exampleHi": "Nahin, main vyast hoon.",
+    "exampleEs": "No, estoy ocupado."
+  },
+  {
+    "id": "w-se",
+    "hindi": "se",
+    "variants": ["se", "sey"],
+    "spanish": "de / desde",
+    "ipa": "seː",
+    "category": "origen",
+    "exampleHi": "Main Panama se hoon.",
+    "exampleEs": "Soy de Panamá."
+  },
+  {
+    "id": "w-desh",
+    "hindi": "desh",
+    "variants": ["desh", "des"],
+    "spanish": "país",
+    "ipa": "d̪eːʃ",
+    "category": "origen",
+    "exampleHi": "Aapka desh kaun sa hai?",
+    "exampleEs": "¿Cuál es su país?"
+  },
+  {
+    "id": "w-shahar",
+    "hindi": "shahar",
+    "variants": ["shahar", "sheher", "shahr"],
+    "spanish": "ciudad",
+    "ipa": "ʃə.ɦər",
+    "category": "origen",
+    "exampleHi": "Mera shahar bahut sundar hai.",
+    "exampleEs": "Mi ciudad es muy bonita."
+  },
+  {
+    "id": "w-maa",
+    "hindi": "maa",
+    "variants": ["maa", "ma", "mata"],
+    "spanish": "madre",
+    "ipa": "maː",
+    "category": "familia",
+    "exampleHi": "Meri maa ghar par hai.",
+    "exampleEs": "Mi madre está en casa."
+  },
+  {
+    "id": "w-pita",
+    "hindi": "pita",
+    "variants": ["pita", "pitaji"],
+    "spanish": "padre",
+    "ipa": "pi.t̪aː",
+    "category": "familia",
+    "exampleHi": "Mere pita daftar mein hain.",
+    "exampleEs": "Mi padre está en la oficina."
+  },
+  {
+    "id": "w-bhai",
+    "hindi": "bhai",
+    "variants": ["bhai", "bhaai"],
+    "spanish": "hermano",
+    "ipa": "bʱaːi",
+    "category": "familia",
+    "exampleHi": "Mera bhai chhota hai.",
+    "exampleEs": "Mi hermano es pequeño."
+  },
+  {
+    "id": "w-behen",
+    "hindi": "behen",
+    "variants": ["behen", "bahan", "behan"],
+    "spanish": "hermana",
+    "ipa": "bɛ.ɦɛn",
+    "category": "familia",
+    "exampleHi": "Meri behen doctor hai.",
+    "exampleEs": "Mi hermana es doctora."
+  },
+  {
+    "id": "w-beta",
+    "hindi": "beta",
+    "variants": ["beta", "betaa"],
+    "spanish": "hijo",
+    "ipa": "beː.ʈaː",
+    "category": "familia",
+    "exampleHi": "Unka beta school jata hai.",
+    "exampleEs": "Su hijo va a la escuela."
+  },
+  {
+    "id": "w-beti",
+    "hindi": "beti",
+    "variants": ["beti", "betee"],
+    "spanish": "hija",
+    "ipa": "beː.ʈiː",
+    "category": "familia",
+    "exampleHi": "Meri beti gana gati hai.",
+    "exampleEs": "Mi hija canta."
+  },
+  {
+    "id": "w-parivaar",
+    "hindi": "parivaar",
+    "variants": ["parivaar", "parivar"],
+    "spanish": "familia",
+    "ipa": "pə.ri.ʋaːr",
+    "category": "familia",
+    "exampleHi": "Mera parivaar bada hai.",
+    "exampleEs": "Mi familia es grande."
+  },
+  {
+    "id": "w-dost",
+    "hindi": "dost",
+    "variants": ["dost", "dosth"],
+    "spanish": "amigo / amiga",
+    "ipa": "d̪oːst̪",
+    "category": "familia",
+    "exampleHi": "Vah mera accha dost hai.",
+    "exampleEs": "Él es mi buen amigo."
+  },
+  {
+    "id": "w-khana",
+    "hindi": "khana",
+    "variants": ["khana", "khaana"],
+    "spanish": "comida / comer",
+    "ipa": "kʰaː.naː",
+    "category": "comida",
+    "exampleHi": "Khana bahut accha hai.",
+    "exampleEs": "La comida está muy buena."
+  },
+  {
+    "id": "w-paani",
+    "hindi": "paani",
+    "variants": ["paani", "pani"],
+    "spanish": "agua",
+    "ipa": "paː.niː",
+    "category": "comida",
+    "exampleHi": "Mujhe paani chahiye.",
+    "exampleEs": "Necesito agua."
+  },
+  {
+    "id": "w-roti",
+    "hindi": "roti",
+    "variants": ["roti", "rotee"],
+    "spanish": "pan plano",
+    "ipa": "roː.ʈiː",
+    "category": "comida",
+    "exampleHi": "Ek roti dijiye.",
+    "exampleEs": "Deme un pan, por favor."
+  },
+  {
+    "id": "w-chai",
+    "hindi": "chai",
+    "variants": ["chai", "chay", "chaay"],
+    "spanish": "té",
+    "ipa": "tʃaːj",
+    "category": "comida",
+    "exampleHi": "Chai garam hai.",
+    "exampleEs": "El té está caliente."
+  },
+  {
+    "id": "w-doodh",
+    "hindi": "doodh",
+    "variants": ["doodh", "dudh"],
+    "spanish": "leche",
+    "ipa": "d̪uːd̪ʱ",
+    "category": "comida",
+    "exampleHi": "Bacche doodh pite hain.",
+    "exampleEs": "Los niños beben leche."
+  },
+  {
+    "id": "w-sabzi",
+    "hindi": "sabzi",
+    "variants": ["sabzi", "sabji"],
+    "spanish": "verdura",
+    "ipa": "səb.ziː",
+    "category": "comida",
+    "exampleHi": "Yah sabzi taazi hai.",
+    "exampleEs": "Esta verdura está fresca."
+  },
+  {
+    "id": "w-phal",
+    "hindi": "phal",
+    "variants": ["phal", "fal"],
+    "spanish": "fruta",
+    "ipa": "pʰəl",
+    "category": "comida",
+    "exampleHi": "Main roz phal khata hoon.",
+    "exampleEs": "Como fruta todos los días."
+  },
+  {
+    "id": "w-meetha",
+    "hindi": "meetha",
+    "variants": ["meetha", "mitha"],
+    "spanish": "dulce",
+    "ipa": "miː.ʈʰaː",
+    "category": "comida",
+    "exampleHi": "Mujhe meetha pasand hai.",
+    "exampleEs": "Me gusta lo dulce."
+  },
+  {
+    "id": "w-yatra",
+    "hindi": "yatra",
+    "variants": ["yatra", "yaatra"],
+    "spanish": "viaje",
+    "ipa": "jaː.t̪raː",
+    "category": "viajes",
+    "exampleHi": "Hamari yatra lambi thi.",
+    "exampleEs": "Nuestro viaje fue largo."
+  },
+  {
+    "id": "w-gaadi",
+    "hindi": "gaadi",
+    "variants": ["gaadi", "gadi"],
+    "spanish": "coche / vehículo",
+    "ipa": "gaː.ɽiː",
+    "category": "viajes",
+    "exampleHi": "Gaadi bahar khadi hai.",
+    "exampleEs": "El coche está aparcado fuera."
+  },
+  {
+    "id": "w-relgaadi",
+    "hindi": "relgaadi",
+    "variants": ["relgaadi", "rail gaadi", "relgadi"],
+    "spanish": "tren",
+    "ipa": "reːl.gaː.ɽiː",
+    "category": "viajes",
+    "exampleHi": "Relgaadi samay par aati hai.",
+    "exampleEs": "El tren llega a tiempo."
+  },
+  {
+    "id": "w-havaijahaz",
+    "hindi": "havai jahaz",
+    "variants": ["havai jahaz", "hawai jahaz", "havai jahaj"],
+    "spanish": "avión",
+    "ipa": "ɦə.ʋaː.iː dʒə.ɦaːz",
+    "category": "viajes",
+    "exampleHi": "Havai jahaz tez hai.",
+    "exampleEs": "El avión es rápido."
+  },
+  {
+    "id": "w-tikat",
+    "hindi": "tikat",
+    "variants": ["tikat", "ticket", "tikit"],
+    "spanish": "billete / boleto",
+    "ipa": "ʈi.kəʈ",
+    "category": "viajes",
+    "exampleHi": "Do tikat dijiye.",
+    "exampleEs": "Deme dos billetes, por favor."
+  },
+  {
+    "id": "w-hotal",
+    "hindi": "hotal",
+    "variants": ["hotal", "hotel"],
+    "spanish": "hotel",
+    "ipa": "ɦoː.ʈəl",
+    "category": "viajes",
+    "exampleHi": "Hotal station ke paas hai.",
+    "exampleEs": "El hotel está cerca de la estación."
+  },
+  {
+    "id": "w-raasta",
+    "hindi": "raasta",
+    "variants": ["raasta", "rasta"],
+    "spanish": "camino / ruta",
+    "ipa": "raːs.t̪aː",
+    "category": "viajes",
+    "exampleHi": "Yah raasta lamba hai.",
+    "exampleEs": "Este camino es largo."
+  },
+  {
+    "id": "w-jagah",
+    "hindi": "jagah",
+    "variants": ["jagah", "jaga", "jagaah"],
+    "spanish": "lugar",
+    "ipa": "dʒə.gəɦ",
+    "category": "viajes",
+    "exampleHi": "Yah jagah sundar hai.",
+    "exampleEs": "Este lugar es bonito."
+  },
+  {
+    "id": "w-subah",
+    "hindi": "subah",
+    "variants": ["subah", "subha"],
+    "spanish": "mañana (parte del día)",
+    "ipa": "su.bəɦ",
+    "category": "vida-diaria",
+    "exampleHi": "Main subah jaldi uthta hoon.",
+    "exampleEs": "Me levanto temprano por la mañana."
+  },
+  {
+    "id": "w-raat",
+    "hindi": "raat",
+    "variants": ["raat", "rat"],
+    "spanish": "noche",
+    "ipa": "raːt̪",
+    "category": "vida-diaria",
+    "exampleHi": "Raat ko main padhta hoon.",
+    "exampleEs": "Por la noche leo."
+  },
+  {
+    "id": "w-kaam",
+    "hindi": "kaam",
+    "variants": ["kaam", "kam"],
+    "spanish": "trabajo / tarea",
+    "ipa": "kaːm",
+    "category": "vida-diaria",
+    "exampleHi": "Mujhe bahut kaam hai.",
+    "exampleEs": "Tengo mucho trabajo."
+  },
+  {
+    "id": "w-ghar",
+    "hindi": "ghar",
+    "variants": ["ghar", "gar"],
+    "spanish": "casa",
+    "ipa": "gʱər",
+    "category": "vida-diaria",
+    "exampleHi": "Main ghar ja raha hoon.",
+    "exampleEs": "Voy a casa."
+  },
+  {
+    "id": "w-bazaar",
+    "hindi": "bazaar",
+    "variants": ["bazaar", "bazar", "baazaar"],
+    "spanish": "mercado",
+    "ipa": "baː.zaːr",
+    "category": "vida-diaria",
+    "exampleHi": "Maa bazaar gayi hai.",
+    "exampleEs": "Mamá ha ido al mercado."
+  },
+  {
+    "id": "w-samay",
+    "hindi": "samay",
+    "variants": ["samay", "samai"],
+    "spanish": "tiempo / hora",
+    "ipa": "sə.məj",
+    "category": "vida-diaria",
+    "exampleHi": "Samay kya hua hai?",
+    "exampleEs": "¿Qué hora es?"
+  },
+  {
+    "id": "w-din",
+    "hindi": "din",
+    "variants": ["din", "dhin"],
+    "spanish": "día",
+    "ipa": "d̪in",
+    "category": "vida-diaria",
+    "exampleHi": "Aaj accha din hai.",
+    "exampleEs": "Hoy es un buen día."
+  },
+  {
+    "id": "w-hafta",
+    "hindi": "hafta",
+    "variants": ["hafta", "haftaa"],
+    "spanish": "semana",
+    "ipa": "ɦəf.t̪aː",
+    "category": "vida-diaria",
+    "exampleHi": "Agle hafta chhutti hai.",
+    "exampleEs": "La próxima semana hay vacaciones."
+  },
+  {
+    "id": "w-naukri",
+    "hindi": "naukri",
+    "variants": ["naukri", "naukari", "nokri"],
+    "spanish": "empleo",
+    "ipa": "nɔːk.riː",
+    "category": "trabajo",
+    "exampleHi": "Meri naukri nayi hai.",
+    "exampleEs": "Mi empleo es nuevo."
+  },
+  {
+    "id": "w-daftar",
+    "hindi": "daftar",
+    "variants": ["daftar", "dafter"],
+    "spanish": "oficina",
+    "ipa": "d̪əf.t̪ər",
+    "category": "trabajo",
+    "exampleHi": "Main daftar mein hoon.",
+    "exampleEs": "Estoy en la oficina."
+  },
+  {
+    "id": "w-paisa",
+    "hindi": "paisa",
+    "variants": ["paisa", "paisaa"],
+    "spanish": "dinero",
+    "ipa": "pɛː.saː",
+    "category": "trabajo",
+    "exampleHi": "Mere paas paisa nahin hai.",
+    "exampleEs": "No tengo dinero."
+  },
+  {
+    "id": "w-vetan",
+    "hindi": "vetan",
+    "variants": ["vetan", "wetan"],
+    "spanish": "salario",
+    "ipa": "ʋeː.t̪ən",
+    "category": "trabajo",
+    "exampleHi": "Vetan har mahine aata hai.",
+    "exampleEs": "El salario llega cada mes."
+  },
+  {
+    "id": "w-sahakarmi",
+    "hindi": "sahakarmi",
+    "variants": ["sahakarmi", "sehkarmi"],
+    "spanish": "colega / compañero de trabajo",
+    "ipa": "sə.ɦə.kər.miː",
+    "category": "trabajo",
+    "exampleHi": "Mere sahakarmi acche hain.",
+    "exampleEs": "Mis colegas son buenos."
+  },
+  {
+    "id": "w-baithak",
+    "hindi": "baithak",
+    "variants": ["baithak", "bethak"],
+    "spanish": "reunión",
+    "ipa": "bɛː.ʈʰək",
+    "category": "trabajo",
+    "exampleHi": "Aaj baithak lambi thi.",
+    "exampleEs": "Hoy la reunión fue larga."
+  },
+  {
+    "id": "w-chhutti",
+    "hindi": "chhutti",
+    "variants": ["chhutti", "chutti"],
+    "spanish": "día libre / vacaciones",
+    "ipa": "tʃʰuʈ.ʈiː",
+    "category": "trabajo",
+    "exampleHi": "Kal meri chhutti hai.",
+    "exampleEs": "Mañana tengo el día libre."
+  },
+  {
+    "id": "w-malik",
+    "hindi": "malik",
+    "variants": ["malik", "maalik"],
+    "spanish": "jefe / dueño",
+    "ipa": "maː.lik",
+    "category": "trabajo",
+    "exampleHi": "Malik daftar mein hai.",
+    "exampleEs": "El jefe está en la oficina."
+  },
+  {
+    "id": "w-bhavishya",
+    "hindi": "bhavishya",
+    "variants": ["bhavishya", "bhavishy", "bhavisya"],
+    "spanish": "futuro",
+    "ipa": "bʱə.ʋiʃ.jə",
+    "category": "planes-futuros",
+    "exampleHi": "Bhavishya mein main India jaoonga.",
+    "exampleEs": "En el futuro iré a la India."
+  },
+  {
+    "id": "w-yojana",
+    "hindi": "yojana",
+    "variants": ["yojana", "yojna"],
+    "spanish": "plan",
+    "ipa": "joː.dʒə.naː",
+    "category": "planes-futuros",
+    "exampleHi": "Meri yojana taiyaar hai.",
+    "exampleEs": "Mi plan está listo."
+  },
+  {
+    "id": "w-sapna",
+    "hindi": "sapna",
+    "variants": ["sapna", "sapnaa"],
+    "spanish": "sueño (aspiración)",
+    "ipa": "səp.naː",
+    "category": "planes-futuros",
+    "exampleHi": "Mera sapna bada hai.",
+    "exampleEs": "Mi sueño es grande."
+  },
+  {
+    "id": "w-lakshya",
+    "hindi": "lakshya",
+    "variants": ["lakshya", "lakshy", "laksh"],
+    "spanish": "meta / objetivo",
+    "ipa": "ləkʃ.jə",
+    "category": "planes-futuros",
+    "exampleHi": "Mera lakshya hindi sikhna hai.",
+    "exampleEs": "Mi meta es aprender hindi."
+  },
+  {
+    "id": "w-ummeed",
+    "hindi": "ummeed",
+    "variants": ["ummeed", "umeed", "ummid"],
+    "spanish": "esperanza",
+    "ipa": "um.miːd̪",
+    "category": "planes-futuros",
+    "exampleHi": "Mujhe ummeed hai ki sab accha hoga.",
+    "exampleEs": "Tengo esperanza de que todo irá bien."
+  },
+  {
+    "id": "w-iraada",
+    "hindi": "iraada",
+    "variants": ["iraada", "irada"],
+    "spanish": "intención",
+    "ipa": "i.raː.d̪aː",
+    "category": "planes-futuros",
+    "exampleHi": "Mera iraada pakka hai.",
+    "exampleEs": "Mi intención es firme."
+  },
+  {
+    "id": "w-kal",
+    "hindi": "kal",
+    "variants": ["kal", "kull"],
+    "spanish": "mañana / ayer",
+    "ipa": "kəl",
+    "category": "planes-futuros",
+    "exampleHi": "Kal ham milenge.",
+    "exampleEs": "Mañana nos veremos."
+  },
+  {
+    "id": "w-agla",
+    "hindi": "agla",
+    "variants": ["agla", "aglaa"],
+    "spanish": "próximo / siguiente",
+    "ipa": "əg.laː",
+    "category": "planes-futuros",
+    "exampleHi": "Agla saal accha hoga.",
+    "exampleEs": "El próximo año será bueno."
+  }
+]

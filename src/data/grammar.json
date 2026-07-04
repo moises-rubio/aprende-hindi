@@ -1,0 +1,527 @@
+[
+  {
+    "id": "g-a1-pronombres",
+    "levelId": "A1",
+    "title": "Pronombres personales",
+    "description": "main, tum, aap, vah y los posesivos.",
+    "steps": [
+      {
+        "title": "Paso 1: yo, tú y usted",
+        "explanation": "main = yo; tum = tú (informal); aap = usted (formal y plural de cortesía). En hindi el pronombre casi siempre se dice, no se omite como en español.",
+        "examples": [
+          { "hindi": "Main Ana hoon.", "spanish": "Yo soy Ana.", "ipa": "məĩ ə.naː ɦũː" },
+          { "hindi": "Tum kaun ho?", "spanish": "¿Quién eres tú?", "ipa": "t̪um kɔːn ɦoː" },
+          { "hindi": "Aap kaun hain?", "spanish": "¿Quién es usted?", "ipa": "aːp kɔːn ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 2: él, ella, esto y eso",
+        "explanation": "yah = este/esta (cerca); vah = ese/esa, él/ella (lejos). El plural es ye / ve. El género lo marca el verbo, no el pronombre.",
+        "examples": [
+          { "hindi": "Yah mera bhai hai.", "spanish": "Este es mi hermano.", "ipa": "jəɦ meː.raː bʱaːi ɦɛː" },
+          { "hindi": "Vah meri behen hai.", "spanish": "Ella es mi hermana.", "ipa": "ʋəɦ meː.riː bɛ.ɦɛn ɦɛː" },
+          { "hindi": "Ve mere dost hain.", "spanish": "Ellos son mis amigos.", "ipa": "ʋeː meː.reː d̪oːst̪ ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 3: los posesivos",
+        "explanation": "mera/meri/mere = mi; tumhara = tu; aapka = su (de usted). Concuerdan en género y número con la cosa poseída, no con el poseedor.",
+        "examples": [
+          { "hindi": "Mera naam Juan hai.", "spanish": "Mi nombre es Juan.", "ipa": "meː.raː naːm xuan ɦɛː" },
+          { "hindi": "Tumhara ghar bada hai.", "spanish": "Tu casa es grande.", "ipa": "t̪um.ɦaː.raː gʱər bə.ɽaː ɦɛː" },
+          { "hindi": "Aapka desh kaun sa hai?", "spanish": "¿Cuál es su país?", "ipa": "aːp.kaː d̪eːʃ kɔːn saː ɦɛː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a1-hona",
+    "levelId": "A1",
+    "title": "El verbo hona (ser/estar)",
+    "description": "El presente de hona: hoon, ho, hai, hain.",
+    "steps": [
+      {
+        "title": "Paso 1: las formas del presente",
+        "explanation": "main hoon (yo soy/estoy), tum ho (tú eres/estás), vah hai (él/ella es/está). hona cubre a la vez ser y estar.",
+        "examples": [
+          { "hindi": "Main theek hoon.", "spanish": "Estoy bien.", "ipa": "məĩ ʈʰiːk ɦũː" },
+          { "hindi": "Tum theek ho.", "spanish": "Tú estás bien.", "ipa": "t̪um ʈʰiːk ɦoː" },
+          { "hindi": "Vah theek hai.", "spanish": "Él/ella está bien.", "ipa": "ʋəɦ ʈʰiːk ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 2: plural y cortesía (hain)",
+        "explanation": "hain se usa con aap, con ham (nosotros) y con ve (ellos). Con aap siempre va en plural aunque hables con una sola persona.",
+        "examples": [
+          { "hindi": "Aap kaise hain?", "spanish": "¿Cómo está usted?", "ipa": "aːp kɛː.seː ɦɛ̃ː" },
+          { "hindi": "Ve ghar par hain.", "spanish": "Ellos están en casa.", "ipa": "ʋeː gʱər pər ɦɛ̃ː" },
+          { "hindi": "Ham dost hain.", "spanish": "Somos amigos.", "ipa": "ɦəm d̪oːst̪ ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 3: la negación con nahin",
+        "explanation": "nahin se coloca antes del verbo: main bimar nahin hoon. En el habla coloquial a veces se omite el verbo final tras nahin.",
+        "examples": [
+          { "hindi": "Main bimar nahin hoon.", "spanish": "No estoy enfermo.", "ipa": "məĩ biː.maːr nə.ɦĩː ɦũː" },
+          { "hindi": "Yah mushkil nahin hai.", "spanish": "Esto no es difícil.", "ipa": "jəɦ muʃ.kil nə.ɦĩː ɦɛː" },
+          { "hindi": "Ve yahan nahin hain.", "spanish": "Ellos no están aquí.", "ipa": "ʋeː jə.ɦãː nə.ɦĩː ɦɛ̃ː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a1-genero",
+    "levelId": "A1",
+    "title": "Género de los sustantivos",
+    "description": "Masculino y femenino; concordancia del adjetivo.",
+    "steps": [
+      {
+        "title": "Paso 1: masculino en -a, femenino en -i",
+        "explanation": "Regla general: los sustantivos en -a suelen ser masculinos (larka, beta) y los en -i femeninos (larki, beti). Hay excepciones que se aprenden con el uso.",
+        "examples": [
+          { "hindi": "Yah larka hai.", "spanish": "Este es un niño.", "ipa": "jəɦ ləɽ.kaː ɦɛː" },
+          { "hindi": "Yah larki hai.", "spanish": "Esta es una niña.", "ipa": "jəɦ ləɽ.kiː ɦɛː" },
+          { "hindi": "Mera beta chhota hai.", "spanish": "Mi hijo es pequeño.", "ipa": "meː.raː beː.ʈaː tʃʰoː.ʈaː ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 2: el adjetivo concuerda",
+        "explanation": "Los adjetivos en -a cambian: bada ghar (casa grande, masc.), badi gaadi (coche grande, fem.). Los adjetivos invariables como lal (rojo) no cambian.",
+        "examples": [
+          { "hindi": "Ghar bada hai.", "spanish": "La casa es grande.", "ipa": "gʱər bə.ɽaː ɦɛː" },
+          { "hindi": "Gaadi badi hai.", "spanish": "El coche es grande.", "ipa": "gaː.ɽiː bə.ɽiː ɦɛː" },
+          { "hindi": "Khana accha hai.", "spanish": "La comida está buena.", "ipa": "kʰaː.naː ə.tʃʰaː ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 3: géneros que hay que memorizar",
+        "explanation": "paani (agua) y doodh (leche) son masculinos; chai (té) es femenino. El género se nota en el adjetivo y el verbo que los acompañan.",
+        "examples": [
+          { "hindi": "Paani thanda hai.", "spanish": "El agua está fría.", "ipa": "paː.niː ʈʰən.ɖaː ɦɛː" },
+          { "hindi": "Chai garam hai.", "spanish": "El té está caliente.", "ipa": "tʃaːj gə.rəm ɦɛː" },
+          { "hindi": "Doodh garam hai.", "spanish": "La leche está caliente.", "ipa": "d̪uːd̪ʱ gə.rəm ɦɛː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a1-sov",
+    "levelId": "A1",
+    "title": "Orden de la oración (SOV)",
+    "description": "Sujeto — Objeto — Verbo: el verbo siempre al final.",
+    "steps": [
+      {
+        "title": "Paso 1: el verbo va al final",
+        "explanation": "El hindi es una lengua SOV: Main chai pita hoon = literalmente «Yo té bebo soy». El verbo conjugado cierra la frase.",
+        "examples": [
+          { "hindi": "Main chai pita hoon.", "spanish": "Yo bebo té.", "ipa": "məĩ tʃaːj piː.t̪aː ɦũː" },
+          { "hindi": "Vah roti khata hai.", "spanish": "Él come pan.", "ipa": "ʋəɦ roː.ʈiː kʰaː.t̪aː ɦɛː" },
+          { "hindi": "Ham hindi sikhte hain.", "spanish": "Nosotros aprendemos hindi.", "ipa": "ɦəm ɦin.d̪iː siːkʰ.t̪eː ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 2: preguntas con kya",
+        "explanation": "kya al inicio convierte la frase en pregunta de sí/no. En medio de la frase, kya significa «qué». El orden SOV no cambia.",
+        "examples": [
+          { "hindi": "Kya aap chai piyenge?", "spanish": "¿Tomará usted té?", "ipa": "kjaː aːp tʃaːj pi.jẽː.geː" },
+          { "hindi": "Aap kya karte hain?", "spanish": "¿A qué se dedica usted?", "ipa": "aːp kjaː kər.t̪eː ɦɛ̃ː" },
+          { "hindi": "Yah kya hai?", "spanish": "¿Qué es esto?", "ipa": "jəɦ kjaː ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 3: la negación antes del verbo",
+        "explanation": "nahin se coloca justo antes del verbo principal: Main doodh nahin pita. En presente habitual negativo se suele omitir el auxiliar hona.",
+        "examples": [
+          { "hindi": "Main doodh nahin pita.", "spanish": "Yo no bebo leche.", "ipa": "məĩ d̪uːd̪ʱ nə.ɦĩː piː.t̪aː" },
+          { "hindi": "Vah kaam nahin karta.", "spanish": "Él no trabaja.", "ipa": "ʋəɦ kaːm nə.ɦĩː kər.t̪aː" },
+          { "hindi": "Ham nahin jaante.", "spanish": "Nosotros no sabemos.", "ipa": "ɦəm nə.ɦĩː dʒaːn.t̪eː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a1-postposiciones",
+    "levelId": "A1",
+    "title": "Postposiciones básicas",
+    "description": "mein, par, se, ko y el posesivo ka/ki/ke.",
+    "steps": [
+      {
+        "title": "Paso 1: mein (en) y par (sobre/en)",
+        "explanation": "En hindi las «preposiciones» van después del sustantivo: ghar mein = en casa; mez par = sobre la mesa.",
+        "examples": [
+          { "hindi": "Main ghar mein hoon.", "spanish": "Estoy en casa.", "ipa": "məĩ gʱər mẽː ɦũː" },
+          { "hindi": "Kitab mez par hai.", "spanish": "El libro está sobre la mesa.", "ipa": "ki.t̪aːb meːz pər ɦɛː" },
+          { "hindi": "Vah bazaar mein hai.", "spanish": "Él está en el mercado.", "ipa": "ʋəɦ baː.zaːr mẽː ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 2: se (de/desde) y ko (a/para)",
+        "explanation": "se marca origen o instrumento: Main Panama se hoon. ko marca el destinatario u objeto directo definido.",
+        "examples": [
+          { "hindi": "Main Panama se hoon.", "spanish": "Soy de Panamá.", "ipa": "məĩ pa.na.ma seː ɦũː" },
+          { "hindi": "Yah relgaadi Dilli se aati hai.", "spanish": "Este tren viene de Delhi.", "ipa": "jəɦ reːl.gaː.ɽiː d̪il.liː seː aː.t̪iː ɦɛː" },
+          { "hindi": "Bacche ko doodh do.", "spanish": "Dale leche al niño.", "ipa": "bə.tʃeː koː d̪uːd̪ʱ d̪oː" }
+        ]
+      },
+      {
+        "title": "Paso 3: el posesivo ka / ki / ke",
+        "explanation": "X ka Y = el Y de X. ka/ki/ke concuerda con lo poseído: Ram ka ghar (masc.), Sita ki kitab (fem.), pita ke dost (plural).",
+        "examples": [
+          { "hindi": "Yah Ram ka ghar hai.", "spanish": "Esta es la casa de Ram.", "ipa": "jəɦ raːm kaː gʱər ɦɛː" },
+          { "hindi": "Yah Sita ki kitab hai.", "spanish": "Este es el libro de Sita.", "ipa": "jəɦ siː.t̪aː kiː ki.t̪aːb ɦɛː" },
+          { "hindi": "Ve mere pita ke dost hain.", "spanish": "Ellos son amigos de mi padre.", "ipa": "ʋeː meː.reː pi.t̪aː keː d̪oːst̪ ɦɛ̃ː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a2-presente-habitual",
+    "levelId": "A2",
+    "title": "Presente habitual",
+    "description": "Acciones cotidianas con -ta / -ti / -te + hona.",
+    "steps": [
+      {
+        "title": "Paso 1: raíz + ta/ti + hona",
+        "explanation": "raíz + ta (masc.) / ti (fem.) + la forma de hona: Main karta hoon (hombre), Main karti hoon (mujer).",
+        "examples": [
+          { "hindi": "Main roz kaam karta hoon.", "spanish": "Trabajo todos los días.", "ipa": "məĩ roːz kaːm kər.t̪aː ɦũː" },
+          { "hindi": "Vah chai piti hai.", "spanish": "Ella bebe té.", "ipa": "ʋəɦ tʃaːj piː.t̪iː ɦɛː" },
+          { "hindi": "Tum jaldi uthte ho.", "spanish": "Tú te levantas temprano.", "ipa": "t̪um dʒəl.d̪iː uʈʰ.t̪eː ɦoː" }
+        ]
+      },
+      {
+        "title": "Paso 2: el plural con -te hain",
+        "explanation": "Con ham, aap y ve se usa -te + hain: Ham bolte hain. Si el grupo es solo de mujeres, se usa -ti hain.",
+        "examples": [
+          { "hindi": "Ham hindi bolte hain.", "spanish": "Nosotros hablamos hindi.", "ipa": "ɦəm ɦin.d̪iː boːl.t̪eː ɦɛ̃ː" },
+          { "hindi": "Ve bazaar jate hain.", "spanish": "Ellos van al mercado.", "ipa": "ʋeː baː.zaːr dʒaː.t̪eː ɦɛ̃ː" },
+          { "hindi": "Log yahan khate hain.", "spanish": "La gente come aquí.", "ipa": "loːg jə.ɦãː kʰaː.t̪eː ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 3: la negación del habitual",
+        "explanation": "Con nahin, el auxiliar hona suele omitirse: Main gosht nahin khata (y no «khata hoon»).",
+        "examples": [
+          { "hindi": "Main gosht nahin khata.", "spanish": "No como carne.", "ipa": "məĩ goːʃt̪ nə.ɦĩː kʰaː.t̪aː" },
+          { "hindi": "Vah TV nahin dekhti.", "spanish": "Ella no ve la tele.", "ipa": "ʋəɦ ʈiː.ʋiː nə.ɦĩː d̪eːkʰ.t̪iː" },
+          { "hindi": "Ham der se nahin sote.", "spanish": "No nos acostamos tarde.", "ipa": "ɦəm d̪eːr seː nə.ɦĩː soː.t̪eː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a2-pasado-tha",
+    "levelId": "A2",
+    "title": "El pasado con tha/thi/the",
+    "description": "Estados y hábitos en pasado.",
+    "steps": [
+      {
+        "title": "Paso 1: tha, thi, the",
+        "explanation": "El pasado de hona: tha (masc. sing.), thi (fem. sing.), the (masc. plural / cortesía), thin (fem. plural).",
+        "examples": [
+          { "hindi": "Main ghar par tha.", "spanish": "Yo estaba en casa.", "ipa": "məĩ gʱər pər t̪ʰaː" },
+          { "hindi": "Vah khush thi.", "spanish": "Ella estaba contenta.", "ipa": "ʋəɦ kʰuʃ t̪ʰiː" },
+          { "hindi": "Ve daftar mein the.", "spanish": "Ellos estaban en la oficina.", "ipa": "ʋeː d̪əf.t̪ər mẽː t̪ʰeː" }
+        ]
+      },
+      {
+        "title": "Paso 2: hábitos en pasado (-ta tha)",
+        "explanation": "Participio habitual + tha = «solía»: Main chalta tha = yo solía caminar. Concuerda en género y número.",
+        "examples": [
+          { "hindi": "Main roz chalta tha.", "spanish": "Yo caminaba todos los días.", "ipa": "məĩ roːz tʃəl.t̪aː t̪ʰaː" },
+          { "hindi": "Vah gana gati thi.", "spanish": "Ella solía cantar.", "ipa": "ʋəɦ gaː.naː gaː.t̪iː t̪ʰiː" },
+          { "hindi": "Ham saath khelte the.", "spanish": "Jugábamos juntos.", "ipa": "ɦəm saːt̪ʰ kʰeːl.t̪eː t̪ʰeː" }
+        ]
+      },
+      {
+        "title": "Paso 3: negación en pasado",
+        "explanation": "nahin antes de tha/thi/the: Main vahan nahin tha = yo no estaba allí.",
+        "examples": [
+          { "hindi": "Main vahan nahin tha.", "spanish": "Yo no estaba allí.", "ipa": "məĩ ʋə.ɦãː nə.ɦĩː t̪ʰaː" },
+          { "hindi": "Dukan khuli nahin thi.", "spanish": "La tienda no estaba abierta.", "ipa": "d̪u.kaːn kʰu.liː nə.ɦĩː t̪ʰiː" },
+          { "hindi": "Ve ghar par nahin the.", "spanish": "Ellos no estaban en casa.", "ipa": "ʋeː gʱər pər nə.ɦĩː t̪ʰeː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a2-presente-continuo",
+    "levelId": "A2",
+    "title": "Presente continuo",
+    "description": "Acciones en curso con raha / rahi / rahe.",
+    "steps": [
+      {
+        "title": "Paso 1: raha / rahi + hona",
+        "explanation": "raíz + raha (masc.) / rahi (fem.) + hona: Main kha raha hoon = estoy comiendo (hombre).",
+        "examples": [
+          { "hindi": "Main kha raha hoon.", "spanish": "Estoy comiendo.", "ipa": "məĩ kʰaː rə.ɦaː ɦũː" },
+          { "hindi": "Vah so rahi hai.", "spanish": "Ella está durmiendo.", "ipa": "ʋəɦ soː rə.ɦiː ɦɛː" },
+          { "hindi": "Barish ho rahi hai.", "spanish": "Está lloviendo.", "ipa": "baː.riʃ ɦoː rə.ɦiː ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 2: el plural rahe hain",
+        "explanation": "Con ham, aap y ve: rahe hain. Ham sikh rahe hain = estamos aprendiendo.",
+        "examples": [
+          { "hindi": "Ham sikh rahe hain.", "spanish": "Estamos aprendiendo.", "ipa": "ɦəm siːkʰ rə.ɦeː ɦɛ̃ː" },
+          { "hindi": "Ve aa rahe hain.", "spanish": "Ellos están llegando.", "ipa": "ʋeː aː rə.ɦeː ɦɛ̃ː" },
+          { "hindi": "Bacche khel rahe hain.", "spanish": "Los niños están jugando.", "ipa": "bə.tʃeː kʰeːl rə.ɦeː ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 3: continuo frente a habitual",
+        "explanation": "karta hoon = hago (hábito); kar raha hoon = estoy haciendo (ahora). abhi (ahora mismo) y roz (a diario) ayudan a distinguirlos.",
+        "examples": [
+          { "hindi": "Main abhi kaam kar raha hoon.", "spanish": "Ahora mismo estoy trabajando.", "ipa": "məĩ ə.bʱiː kaːm kər rə.ɦaː ɦũː" },
+          { "hindi": "Main roz kaam karta hoon.", "spanish": "Trabajo a diario.", "ipa": "məĩ roːz kaːm kər.t̪aː ɦũː" },
+          { "hindi": "Vah aaj ghar par rah rahi hai.", "spanish": "Hoy ella se está quedando en casa.", "ipa": "ʋəɦ aːdʒ gʱər pər rəɦ rə.ɦiː ɦɛː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a2-postposiciones-compuestas",
+    "levelId": "A2",
+    "title": "Postposiciones compuestas",
+    "description": "ke saath, ke liye, ke paas, ke baad...",
+    "steps": [
+      {
+        "title": "Paso 1: ke saath (con) y ke liye (para)",
+        "explanation": "Se forman con ke + palabra: dost ke saath = con el amigo; aapke liye = para usted.",
+        "examples": [
+          { "hindi": "Main dost ke saath hoon.", "spanish": "Estoy con un amigo.", "ipa": "məĩ d̪oːst̪ keː saːt̪ʰ ɦũː" },
+          { "hindi": "Yah aapke liye hai.", "spanish": "Esto es para usted.", "ipa": "jəɦ aːp.keː li.jeː ɦɛː" },
+          { "hindi": "Vah maa ke saath rahti hai.", "spanish": "Ella vive con su madre.", "ipa": "ʋəɦ maː keː saːt̪ʰ rəɦ.t̪iː ɦɛː" }
+        ]
+      },
+      {
+        "title": "Paso 2: ke paas (cerca de / tener)",
+        "explanation": "ke paas indica cercanía y también posesión: Mere paas paisa hai = tengo dinero (lit. «cerca de mí hay dinero»).",
+        "examples": [
+          { "hindi": "Mere paas paisa hai.", "spanish": "Tengo dinero.", "ipa": "meː.reː paːs pɛː.saː ɦɛː" },
+          { "hindi": "Station ke paas hotal hai.", "spanish": "Hay un hotel cerca de la estación.", "ipa": "sʈeː.ʃən keː paːs ɦoː.ʈəl ɦɛː" },
+          { "hindi": "Ghar ke andar aao.", "spanish": "Entra en la casa.", "ipa": "gʱər keː ən.d̪ər aː.oː" }
+        ]
+      },
+      {
+        "title": "Paso 3: ke baad (después de) y se pehle (antes de)",
+        "explanation": "khane ke baad = después de comer; kaam se pehle = antes del trabajo. Muy usadas para ordenar la rutina diaria.",
+        "examples": [
+          { "hindi": "Khane ke baad chalenge.", "spanish": "Iremos después de comer.", "ipa": "kʰaː.neː keː baːd̪ tʃə.lẽː.geː" },
+          { "hindi": "Kaam se pehle nashta karo.", "spanish": "Desayuna antes del trabajo.", "ipa": "kaːm seː pɛɦ.leː naːʃ.t̪aː kə.roː" },
+          { "hindi": "Class ke baad milte hain.", "spanish": "Nos vemos después de clase.", "ipa": "klaːs keː baːd̪ mil.t̪eː ɦɛ̃ː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-a2-imperativo",
+    "levelId": "A2",
+    "title": "El imperativo y la cortesía",
+    "description": "Órdenes y peticiones: tum -o, aap -iye, prohibición con mat.",
+    "steps": [
+      {
+        "title": "Paso 1: imperativo informal (tum)",
+        "explanation": "Con tum, el imperativo termina en -o: aao (ven), pio (bebe), suno (escucha).",
+        "examples": [
+          { "hindi": "Yahan aao.", "spanish": "Ven aquí.", "ipa": "jə.ɦãː aː.oː" },
+          { "hindi": "Paani pio.", "spanish": "Bebe agua.", "ipa": "paː.niː pi.oː" },
+          { "hindi": "Dhyan se suno.", "spanish": "Escucha con atención.", "ipa": "d̪ʱjaːn seː su.noː" }
+        ]
+      },
+      {
+        "title": "Paso 2: imperativo cortés (aap, -iye)",
+        "explanation": "Con aap se usa -iye: baithiye (siéntese), khaiye (coma). kripya = por favor.",
+        "examples": [
+          { "hindi": "Baithiye.", "spanish": "Siéntese, por favor.", "ipa": "bɛː.ʈʰi.jeː" },
+          { "hindi": "Khaiye.", "spanish": "Coma, por favor.", "ipa": "kʰaː.i.jeː" },
+          { "hindi": "Kripya andar aaiye.", "spanish": "Por favor, pase.", "ipa": "kri.pjaː ən.d̪ər aː.i.jeː" }
+        ]
+      },
+      {
+        "title": "Paso 3: la prohibición con mat",
+        "explanation": "mat antes del imperativo lo convierte en prohibición: Mat jao = no vayas; Chinta mat kijiye = no se preocupe.",
+        "examples": [
+          { "hindi": "Mat jao.", "spanish": "No te vayas.", "ipa": "mət̪ dʒaː.oː" },
+          { "hindi": "Der mat karo.", "spanish": "No llegues tarde.", "ipa": "d̪eːr mət̪ kə.roː" },
+          { "hindi": "Chinta mat kijiye.", "spanish": "No se preocupe.", "ipa": "tʃin.t̪aː mət̪ kiː.dʒi.jeː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-b1-futuro",
+    "levelId": "B1",
+    "title": "El futuro",
+    "description": "-unga / -egi / -enge según persona y género.",
+    "steps": [
+      {
+        "title": "Paso 1: futuro singular",
+        "explanation": "main + -unga/-ungi; vah + -ega/-egi; tum + -oge/-ogi. La terminación marca persona y género.",
+        "examples": [
+          { "hindi": "Main kal aaunga.", "spanish": "Vendré mañana (hombre).", "ipa": "məĩ kəl aː.ũː.gaː" },
+          { "hindi": "Vah kal aayegi.", "spanish": "Ella vendrá mañana.", "ipa": "ʋəɦ kəl aː.jeː.giː" },
+          { "hindi": "Tum kya karoge?", "spanish": "¿Qué harás tú?", "ipa": "t̪um kjaː kə.roː.geː" }
+        ]
+      },
+      {
+        "title": "Paso 2: futuro plural (-enge)",
+        "explanation": "Con ham, aap y ve se usa -enge (masc.) / -engi (fem.): Ham karenge = haremos.",
+        "examples": [
+          { "hindi": "Ham yatra karenge.", "spanish": "Haremos un viaje.", "ipa": "ɦəm jaː.t̪raː kə.rẽː.geː" },
+          { "hindi": "Ve agle saal aayenge.", "spanish": "Ellos vendrán el próximo año.", "ipa": "ʋeː əg.leː saːl aː.jẽː.geː" },
+          { "hindi": "Aap kahan rahenge?", "spanish": "¿Dónde se alojará usted?", "ipa": "aːp kə.ɦãː rə.ɦẽː.geː" }
+        ]
+      },
+      {
+        "title": "Paso 3: hablar de planes",
+        "explanation": "El futuro se combina con expresiones de tiempo: agle saal (el año que viene), bhavishya mein (en el futuro).",
+        "examples": [
+          { "hindi": "Main agle saal hindi sikhoonga.", "spanish": "El año que viene aprenderé hindi.", "ipa": "məĩ əg.leː saːl ɦin.d̪iː siː.kʰũː.gaː" },
+          { "hindi": "Vah nayi naukri dhoondhegi.", "spanish": "Ella buscará un nuevo empleo.", "ipa": "ʋəɦ nə.jiː nɔːk.riː d̪ʱũː.d̪ʱeː.giː" },
+          { "hindi": "Ham ghar kharidenge.", "spanish": "Compraremos una casa.", "ipa": "ɦəm gʱər kʰə.riː.d̪ẽː.geː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-b1-ergativo",
+    "levelId": "B1",
+    "title": "Pasado perfectivo y ne",
+    "description": "La construcción ergativa: Maine khana khaya.",
+    "steps": [
+      {
+        "title": "Paso 1: perfectivo sin ne (intransitivos)",
+        "explanation": "Los verbos intransitivos forman el pasado simple sin ne: Main aaya (llegué), Vah gayi (ella fue). Concuerda con el sujeto.",
+        "examples": [
+          { "hindi": "Main aaya.", "spanish": "Yo llegué (hombre).", "ipa": "məĩ aː.jaː" },
+          { "hindi": "Vah gayi.", "spanish": "Ella se fue.", "ipa": "ʋəɦ gə.jiː" },
+          { "hindi": "Ve pahunche.", "spanish": "Ellos llegaron.", "ipa": "ʋeː pə.ɦũ.tʃeː" }
+        ]
+      },
+      {
+        "title": "Paso 2: ne con verbos transitivos",
+        "explanation": "En pasado perfectivo, el sujeto de un verbo transitivo lleva ne: Maine khana khaya = yo comí (comida).",
+        "examples": [
+          { "hindi": "Maine khana khaya.", "spanish": "Yo comí.", "ipa": "mɛ̃ː.neː kʰaː.naː kʰaː.jaː" },
+          { "hindi": "Usne chitthi likhi.", "spanish": "Él/ella escribió una carta.", "ipa": "us.neː tʃiʈ.ʈʰiː li.kʰiː" },
+          { "hindi": "Hamne film dekhi.", "spanish": "Nosotros vimos una película.", "ipa": "ɦəm.neː film d̪eː.kʰiː" }
+        ]
+      },
+      {
+        "title": "Paso 3: el verbo concuerda con el objeto",
+        "explanation": "Con ne, el verbo concuerda con el objeto directo: Maine roti khai (roti es fem.), Ramne paani piya (paani es masc.).",
+        "examples": [
+          { "hindi": "Maine roti khai.", "spanish": "Yo comí pan.", "ipa": "mɛ̃ː.neː roː.ʈiː kʰaː.iː" },
+          { "hindi": "Usne kitaben kharidin.", "spanish": "Él/ella compró libros.", "ipa": "us.neː ki.t̪aː.bẽː kʰə.riː.d̪ĩː" },
+          { "hindi": "Ramne paani piya.", "spanish": "Ram bebió agua.", "ipa": "raːm.neː paː.niː pi.jaː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-b1-subjuntivo",
+    "levelId": "B1",
+    "title": "Subjuntivo y chahiye",
+    "description": "Deseos, necesidades y sugerencias.",
+    "steps": [
+      {
+        "title": "Paso 1: chahiye (necesitar/querer)",
+        "explanation": "X ko Y chahiye = X necesita Y. El que necesita lleva ko: Mujhe chai chahiye = necesito té.",
+        "examples": [
+          { "hindi": "Mujhe chai chahiye.", "spanish": "Necesito té.", "ipa": "mu.dʒʱeː tʃaːj tʃaː.ɦi.jeː" },
+          { "hindi": "Aapko aaram chahiye.", "spanish": "Usted necesita descanso.", "ipa": "aːp.koː aː.raːm tʃaː.ɦi.jeː" },
+          { "hindi": "Bacche ko doodh chahiye.", "spanish": "El niño necesita leche.", "ipa": "bə.tʃeː koː d̪uːd̪ʱ tʃaː.ɦi.jeː" }
+        ]
+      },
+      {
+        "title": "Paso 2: el subjuntivo",
+        "explanation": "El subjuntivo expresa posibilidad o propuesta: Shayad vah aaye = quizá venga; Chalo chalen = vámonos.",
+        "examples": [
+          { "hindi": "Shayad vah aaye.", "spanish": "Quizá él venga.", "ipa": "ʃaː.jəd̪ ʋəɦ aː.jeː" },
+          { "hindi": "Kya main andar aaoon?", "spanish": "¿Puedo pasar?", "ipa": "kjaː məĩ ən.d̪ər aː.ũː" },
+          { "hindi": "Chalo chalen.", "spanish": "Vámonos.", "ipa": "tʃə.loː tʃə.lẽː" }
+        ]
+      },
+      {
+        "title": "Paso 3: -na chahiye (deber)",
+        "explanation": "Infinitivo + chahiye = deber / convenir: Tumhe sona chahiye = deberías dormir.",
+        "examples": [
+          { "hindi": "Tumhe sona chahiye.", "spanish": "Deberías dormir.", "ipa": "t̪um.ɦeː soː.naː tʃaː.ɦi.jeː" },
+          { "hindi": "Hamen jaldi uthna chahiye.", "spanish": "Deberíamos levantarnos temprano.", "ipa": "ɦə.mẽː dʒəl.d̪iː uʈʰ.naː tʃaː.ɦi.jeː" },
+          { "hindi": "Aapko doctor se milna chahiye.", "spanish": "Usted debería ver a un médico.", "ipa": "aːp.koː ɖɔk.ʈər seː mil.naː tʃaː.ɦi.jeː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-b1-relativas",
+    "levelId": "B1",
+    "title": "Oraciones relativas (jo... vah)",
+    "description": "Correlativos: jo/vah, jab/tab, jahan/vahan.",
+    "steps": [
+      {
+        "title": "Paso 1: jo... vah (el que...)",
+        "explanation": "El hindi usa pares correlativos: Jo aadmi vahan hai, vah mera bhai hai = el hombre que está allí es mi hermano.",
+        "examples": [
+          { "hindi": "Jo aadmi vahan hai, vah mera bhai hai.", "spanish": "El hombre que está allí es mi hermano.", "ipa": "dʒoː aːd̪.miː ʋə.ɦãː ɦɛː, ʋəɦ meː.raː bʱaːi ɦɛː" },
+          { "hindi": "Jo tum kahte ho, vah sach hai.", "spanish": "Lo que dices es verdad.", "ipa": "dʒoː t̪um kɛɦ.t̪eː ɦoː, ʋəɦ sətʃ ɦɛː" },
+          { "hindi": "Jo chahiye, vah lo.", "spanish": "Toma lo que necesites.", "ipa": "dʒoː tʃaː.ɦi.jeː, ʋəɦ loː" }
+        ]
+      },
+      {
+        "title": "Paso 2: jab... tab (cuando...)",
+        "explanation": "jab = cuando; tab = entonces: Jab barish hogi, tab ham rukenge = cuando llueva, pararemos.",
+        "examples": [
+          { "hindi": "Jab barish hogi, tab ham rukenge.", "spanish": "Cuando llueva, pararemos.", "ipa": "dʒəb baː.riʃ ɦoː.giː, t̪əb ɦəm ru.kẽː.geː" },
+          { "hindi": "Jab main chhota tha, tab yahan rahta tha.", "spanish": "Cuando era pequeño, vivía aquí.", "ipa": "dʒəb məĩ tʃʰoː.ʈaː t̪ʰaː, t̪əb jə.ɦãː rɛɦ.t̪aː t̪ʰaː" },
+          { "hindi": "Jab kaam khatam ho, tab aana.", "spanish": "Ven cuando termine el trabajo.", "ipa": "dʒəb kaːm kʰət̪m ɦoː, t̪əb aː.naː" }
+        ]
+      },
+      {
+        "title": "Paso 3: jahan... vahan (donde...)",
+        "explanation": "jahan = donde; vahan = allí: Jahan tum jaoge, vahan main jaoonga = iré adonde tú vayas.",
+        "examples": [
+          { "hindi": "Jahan tum jaoge, vahan main jaoonga.", "spanish": "Iré adonde tú vayas.", "ipa": "dʒə.ɦãː t̪um dʒaː.oː.geː, ʋə.ɦãː məĩ dʒaː.ũː.gaː" },
+          { "hindi": "Jahan shanti hai, vahan sukh hai.", "spanish": "Donde hay paz, hay felicidad.", "ipa": "dʒə.ɦãː ʃaːn.t̪iː ɦɛː, ʋə.ɦãː sukʰ ɦɛː" },
+          { "hindi": "Vahan jao, jahan kaam hai.", "spanish": "Ve allí donde haya trabajo.", "ipa": "ʋə.ɦãː dʒaː.oː, dʒə.ɦãː kaːm ɦɛː" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g-b1-sakna",
+    "levelId": "B1",
+    "title": "Poder y completar (sakna, chukna, pana)",
+    "description": "Verbos compuestos de capacidad y compleción.",
+    "steps": [
+      {
+        "title": "Paso 1: sakna (poder)",
+        "explanation": "raíz + sakna: Main bol sakta hoon = puedo hablar. sakna se conjuga; la raíz no cambia.",
+        "examples": [
+          { "hindi": "Main hindi bol sakta hoon.", "spanish": "Puedo hablar hindi.", "ipa": "məĩ ɦin.d̪iː boːl sək.t̪aː ɦũː" },
+          { "hindi": "Kya aap aa sakte hain?", "spanish": "¿Puede usted venir?", "ipa": "kjaː aːp aː sək.t̪eː ɦɛ̃ː" },
+          { "hindi": "Vah nahin aa sakti.", "spanish": "Ella no puede venir.", "ipa": "ʋəɦ nə.ɦĩː aː sək.t̪iː" }
+        ]
+      },
+      {
+        "title": "Paso 2: chukna (haber terminado)",
+        "explanation": "raíz + chukna = acción ya completada: Main kha chuka hoon = ya he comido.",
+        "examples": [
+          { "hindi": "Main kha chuka hoon.", "spanish": "Ya he comido.", "ipa": "məĩ kʰaː tʃu.kaː ɦũː" },
+          { "hindi": "Vah ja chuki hai.", "spanish": "Ella ya se ha ido.", "ipa": "ʋəɦ dʒaː tʃu.kiː ɦɛː" },
+          { "hindi": "Ham dekh chuke hain.", "spanish": "Ya lo hemos visto.", "ipa": "ɦəm d̪eːkʰ tʃu.keː ɦɛ̃ː" }
+        ]
+      },
+      {
+        "title": "Paso 3: pana (lograr)",
+        "explanation": "raíz + pana = conseguir/lograr hacer algo, a menudo en negativo: Main pahunch nahin paya = no logré llegar.",
+        "examples": [
+          { "hindi": "Main samay par nahin pahunch paya.", "spanish": "No logré llegar a tiempo.", "ipa": "məĩ sə.məj pər nə.ɦĩː pə.ɦũtʃ paː.jaː" },
+          { "hindi": "Kya tum kar paoge?", "spanish": "¿Lo lograrás hacer?", "ipa": "kjaː t̪um kər paː.oː.geː" },
+          { "hindi": "Vah so nahin pai.", "spanish": "Ella no logró dormir.", "ipa": "ʋəɦ soː nə.ɦĩː paː.iː" }
+        ]
+      }
+    ]
+  }
+]

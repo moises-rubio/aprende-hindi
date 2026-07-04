@@ -1,0 +1,334 @@
+{
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Nivel A1 — Principiante",
+      "description": "Saludos, presentaciones, familia y comida. Primeras frases en hindi.",
+      "order": 1
+    },
+    {
+      "id": "A2",
+      "title": "Nivel A2 — Básico",
+      "description": "Viajes, vida diaria y tiempos verbales del presente y pasado.",
+      "order": 2
+    },
+    {
+      "id": "B1",
+      "title": "Nivel B1 — Intermedio",
+      "description": "Trabajo, planes de futuro, ergativo y oraciones complejas.",
+      "order": 3
+    }
+  ],
+  "modules": [
+    {
+      "id": "a1-m1",
+      "levelId": "A1",
+      "title": "Presentaciones personales",
+      "description": "Saluda, di tu nombre y explica de dónde vienes.",
+      "order": 1
+    },
+    {
+      "id": "a1-m2",
+      "levelId": "A1",
+      "title": "La familia",
+      "description": "Habla de tu familia y tus amigos.",
+      "order": 2
+    },
+    {
+      "id": "a1-m3",
+      "levelId": "A1",
+      "title": "La comida",
+      "description": "Pide comida y bebida y describe sabores.",
+      "order": 3
+    },
+    {
+      "id": "a2-m1",
+      "levelId": "A2",
+      "title": "De viaje",
+      "description": "Transporte, billetes y cómo moverte por la India.",
+      "order": 1
+    },
+    {
+      "id": "a2-m2",
+      "levelId": "A2",
+      "title": "Vida diaria",
+      "description": "Rutinas, horarios y el mercado.",
+      "order": 2
+    },
+    {
+      "id": "b1-m1",
+      "levelId": "B1",
+      "title": "El trabajo",
+      "description": "Oficina, reuniones y vida profesional.",
+      "order": 1
+    },
+    {
+      "id": "b1-m2",
+      "levelId": "B1",
+      "title": "Planes de futuro",
+      "description": "Metas, sueños e intenciones en futuro.",
+      "order": 2
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-m1-l1",
+      "moduleId": "a1-m1",
+      "title": "Vocabulario: saludos y presentaciones",
+      "description": "Palabras esenciales para saludar y presentarte.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-namaste", "w-naam", "w-mera", "w-aap", "w-kaise", "w-theek", "w-dhanyavaad", "w-haan", "w-nahin", "w-se", "w-desh", "w-shahar"]
+    },
+    {
+      "id": "a1-m1-l2",
+      "moduleId": "a1-m1",
+      "title": "Gramática: pronombres personales",
+      "description": "main, tum, aap y los posesivos.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-namaste", "w-naam", "w-mera", "w-aap"],
+      "grammarTopicId": "g-a1-pronombres"
+    },
+    {
+      "id": "a1-m1-l3",
+      "moduleId": "a1-m1",
+      "title": "Escucha: saludos",
+      "description": "Reconoce saludos y presentaciones al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-namaste", "w-naam", "w-kaise", "w-theek", "w-dhanyavaad", "w-haan", "w-nahin", "w-se"]
+    },
+    {
+      "id": "a1-m1-l4",
+      "moduleId": "a1-m1",
+      "title": "Expresión: preséntate",
+      "description": "Produce tus primeras frases de presentación.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-namaste", "w-naam", "w-mera", "w-aap", "w-kaise", "w-theek", "w-dhanyavaad", "w-desh"]
+    },
+    {
+      "id": "a1-m2-l1",
+      "moduleId": "a1-m2",
+      "title": "Vocabulario: la familia",
+      "description": "Los miembros de la familia en hindi.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen", "w-beta", "w-beti", "w-parivaar", "w-dost"]
+    },
+    {
+      "id": "a1-m2-l2",
+      "moduleId": "a1-m2",
+      "title": "Gramática: el verbo hona (ser/estar)",
+      "description": "hoon, ho, hai, hain.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen"],
+      "grammarTopicId": "g-a1-hona"
+    },
+    {
+      "id": "a1-m2-l3",
+      "moduleId": "a1-m2",
+      "title": "Escucha: la familia",
+      "description": "Reconoce los nombres de la familia al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen", "w-beta", "w-beti", "w-parivaar", "w-dost"]
+    },
+    {
+      "id": "a1-m2-l4",
+      "moduleId": "a1-m2",
+      "title": "Expresión: habla de tu familia",
+      "description": "Describe a tu familia con frases sencillas.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen", "w-beta", "w-beti", "w-parivaar", "w-dost"]
+    },
+    {
+      "id": "a1-m3-l1",
+      "moduleId": "a1-m3",
+      "title": "Vocabulario: comida y bebida",
+      "description": "Alimentos y bebidas básicos.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-khana", "w-paani", "w-roti", "w-chai", "w-doodh", "w-sabzi", "w-phal", "w-meetha"]
+    },
+    {
+      "id": "a1-m3-l2",
+      "moduleId": "a1-m3",
+      "title": "Gramática: género de los sustantivos",
+      "description": "Masculino y femenino, concordancia del adjetivo.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-khana", "w-paani", "w-chai", "w-doodh"],
+      "grammarTopicId": "g-a1-genero"
+    },
+    {
+      "id": "a1-m3-l3",
+      "moduleId": "a1-m3",
+      "title": "Escucha: en la mesa",
+      "description": "Reconoce comidas y bebidas al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-khana", "w-paani", "w-roti", "w-chai", "w-doodh", "w-sabzi", "w-phal", "w-meetha"]
+    },
+    {
+      "id": "a1-m3-l4",
+      "moduleId": "a1-m3",
+      "title": "Expresión: pide comida",
+      "description": "Pide comida y bebida en hindi.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-khana", "w-paani", "w-roti", "w-chai", "w-doodh", "w-sabzi", "w-phal", "w-meetha"]
+    },
+    {
+      "id": "a2-m1-l1",
+      "moduleId": "a2-m1",
+      "title": "Vocabulario: transporte y viajes",
+      "description": "Medios de transporte, billetes y alojamiento.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-havaijahaz", "w-tikat", "w-hotal", "w-raasta", "w-jagah"]
+    },
+    {
+      "id": "a2-m1-l2",
+      "moduleId": "a2-m1",
+      "title": "Gramática: presente habitual",
+      "description": "-ta / -ti / -te + hona.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-tikat"],
+      "grammarTopicId": "g-a2-presente-habitual"
+    },
+    {
+      "id": "a2-m1-l3",
+      "moduleId": "a2-m1",
+      "title": "Escucha: en la estación",
+      "description": "Reconoce vocabulario de viaje al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-havaijahaz", "w-tikat", "w-hotal", "w-raasta", "w-jagah"]
+    },
+    {
+      "id": "a2-m1-l4",
+      "moduleId": "a2-m1",
+      "title": "Expresión: planifica un viaje",
+      "description": "Frases para comprar billetes y preguntar caminos.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-havaijahaz", "w-tikat", "w-hotal", "w-raasta", "w-jagah"]
+    },
+    {
+      "id": "a2-m2-l1",
+      "moduleId": "a2-m2",
+      "title": "Vocabulario: la rutina diaria",
+      "description": "Momentos del día, casa y mercado.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-subah", "w-raat", "w-kaam", "w-ghar", "w-bazaar", "w-samay", "w-din", "w-hafta"]
+    },
+    {
+      "id": "a2-m2-l2",
+      "moduleId": "a2-m2",
+      "title": "Gramática: el pasado con tha/thi/the",
+      "description": "Estados y hábitos en pasado.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-subah", "w-raat", "w-ghar", "w-kaam"],
+      "grammarTopicId": "g-a2-pasado-tha"
+    },
+    {
+      "id": "a2-m2-l3",
+      "moduleId": "a2-m2",
+      "title": "Escucha: un día normal",
+      "description": "Reconoce la rutina diaria al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-subah", "w-raat", "w-kaam", "w-ghar", "w-bazaar", "w-samay", "w-din", "w-hafta"]
+    },
+    {
+      "id": "a2-m2-l4",
+      "moduleId": "a2-m2",
+      "title": "Expresión: describe tu día",
+      "description": "Cuenta tu rutina con el presente habitual.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-subah", "w-raat", "w-kaam", "w-ghar", "w-bazaar", "w-samay", "w-din", "w-hafta"]
+    },
+    {
+      "id": "b1-m1-l1",
+      "moduleId": "b1-m1",
+      "title": "Vocabulario: el mundo laboral",
+      "description": "Oficina, salario, reuniones y jefes.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-naukri", "w-daftar", "w-paisa", "w-vetan", "w-sahakarmi", "w-baithak", "w-chhutti", "w-malik"]
+    },
+    {
+      "id": "b1-m1-l2",
+      "moduleId": "b1-m1",
+      "title": "Gramática: pasado perfectivo y ne",
+      "description": "La construcción ergativa del hindi.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-naukri", "w-daftar", "w-baithak", "w-kaam"],
+      "grammarTopicId": "g-b1-ergativo"
+    },
+    {
+      "id": "b1-m1-l3",
+      "moduleId": "b1-m1",
+      "title": "Escucha: en la oficina",
+      "description": "Reconoce vocabulario laboral al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-naukri", "w-daftar", "w-paisa", "w-vetan", "w-sahakarmi", "w-baithak", "w-chhutti", "w-malik"]
+    },
+    {
+      "id": "b1-m1-l4",
+      "moduleId": "b1-m1",
+      "title": "Expresión: habla de tu trabajo",
+      "description": "Describe tu empleo y tus responsabilidades.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-naukri", "w-daftar", "w-paisa", "w-vetan", "w-sahakarmi", "w-baithak", "w-chhutti", "w-malik"]
+    },
+    {
+      "id": "b1-m2-l1",
+      "moduleId": "b1-m2",
+      "title": "Vocabulario: metas y sueños",
+      "description": "Palabras para hablar del futuro.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": ["w-bhavishya", "w-yojana", "w-sapna", "w-lakshya", "w-ummeed", "w-iraada", "w-kal", "w-agla"]
+    },
+    {
+      "id": "b1-m2-l2",
+      "moduleId": "b1-m2",
+      "title": "Gramática: el futuro",
+      "description": "-unga / -egi / -enge.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": ["w-bhavishya", "w-yojana", "w-kal", "w-agla"],
+      "grammarTopicId": "g-b1-futuro"
+    },
+    {
+      "id": "b1-m2-l3",
+      "moduleId": "b1-m2",
+      "title": "Escucha: planes",
+      "description": "Reconoce planes e intenciones al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": ["w-bhavishya", "w-yojana", "w-sapna", "w-lakshya", "w-ummeed", "w-iraada", "w-kal", "w-agla"]
+    },
+    {
+      "id": "b1-m2-l4",
+      "moduleId": "b1-m2",
+      "title": "Expresión: cuenta tus planes",
+      "description": "Habla de tus metas usando el futuro.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": ["w-bhavishya", "w-yojana", "w-sapna", "w-lakshya", "w-ummeed", "w-iraada", "w-kal", "w-agla"]
+    }
+  ]
+}
