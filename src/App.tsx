@@ -10,16 +10,18 @@ import GrammarPage from './pages/GrammarPage';
 import GrammarTopicPage from './pages/GrammarTopicPage';
 import LessonPage from './pages/LessonPage';
 import LevelPage from './pages/LevelPage';
+import LoginPage from './pages/LoginPage';
 import ModulePage from './pages/ModulePage';
 import PlacementPage from './pages/PlacementPage';
 import ReviewPage from './pages/ReviewPage';
 import VocabularyPage from './pages/VocabularyPage';
 import { subscribeAchievements } from './services/achievements';
+import { logout } from './services/authService';
 import { getStreak } from './services/streak';
 import type { AchievementDef } from './types';
 
 function Header() {
-  useAppState();
+  const { user, syncing } = useAppState();
   const streak = getStreak();
   return (
     <header className="app-header">
@@ -39,6 +41,19 @@ function Header() {
         <span className="header-streak" aria-label={`Racha actual: ${streak.count} días`}>
           🔥 {streak.count}
         </span>
+        {user ? (
+          <span className="header-account">
+            {syncing && <span className="muted small">Sincronizando…</span>}
+            <span className="muted small header-email">{user.email}</span>
+            <button type="button" className="btn btn-small" onClick={() => logout()}>
+              Cerrar sesión
+            </button>
+          </span>
+        ) : (
+          <NavLink to="/login" className="btn btn-small">
+            Iniciar sesión
+          </NavLink>
+        )}
       </div>
     </header>
   );
@@ -81,6 +96,7 @@ export default function App() {
           <Route path="/placement/:moduleId" element={<PlacementPage />} />
           <Route path="/review" element={<ReviewPage />} />
           <Route path="/achievements" element={<AchievementsPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </div>
       <AchievementToaster />
