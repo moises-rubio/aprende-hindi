@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { Suspense, lazy, useCallback, useEffect, useState } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
 import AchievementNotification from './components/AchievementNotification';
 import { AppStateProvider, useAppState } from './context';
@@ -10,19 +10,39 @@ import GrammarPage from './pages/GrammarPage';
 import GrammarTopicPage from './pages/GrammarTopicPage';
 import LessonPage from './pages/LessonPage';
 import LevelPage from './pages/LevelPage';
-import LoginPage from './pages/LoginPage';
 import ModulePage from './pages/ModulePage';
 import PlacementPage from './pages/PlacementPage';
 import ReviewPage from './pages/ReviewPage';
 import VocabularyPage from './pages/VocabularyPage';
 import { subscribeAchievements } from './services/achievements';
-import { logout } from './services/authService';
 import { getStreak } from './services/streak';
 import type { AchievementDef } from './types';
 
+// Cargada de forma diferida: evita que los usuarios invitados (sin cuenta)
+// descarguen el SDK de Firebase en el paquete principal.
+const LoginPage = lazy(() => import('./pages/LoginPage'));
+
+function SyncBanner() {
+  const { syncStatus, retrySync } = useAppState();
+  if (syncStatus !== 'error') return null;
+  return (
+    <div className="sync-banner" role="alert">
+      <span>⚠️ No se pudo guardar tu progreso en la nube.</span>
+      <button type="button" className="btn btn-small" onClick={retrySync}>
+        Reintentar
+      </button>
+    </div>
+  );
+}
+
 function Header() {
-  const { user, syncing } = useAppState();
+  const { user, authReady, syncing } = useAppState();
   const streak = getStreak();
+
+  const handleLogout = () => {
+    import('./services/authService').then((m) => m.logout());
+  };
+
   return (
     <header className="app-header">
       <div className="header-inner">
@@ -41,19 +61,22 @@ function Header() {
         <span className="header-streak" aria-label={`Racha actual: ${streak.count} días`}>
           🔥 {streak.count}
         </span>
-        {user ? (
-          <span className="header-account">
-            {syncing && <span className="muted small">Sincronizando…</span>}
-            <span className="muted small header-email">{user.email}</span>
-            <button type="button" className="btn btn-small" onClick={() => logout()}>
-              Cerrar sesión
-            </button>
-          </span>
-        ) : (
-          <NavLink to="/login" className="btn btn-small">
-            Iniciar sesión
-          </NavLink>
-        )}
+        {/* No renderizar el estado de cuenta hasta que Firebase confirme si hay sesión,
+            para evitar un parpadeo de "Iniciar sesión" -> cuenta en cada carga. */}
+        {authReady &&
+          (user ? (
+            <span className="header-account">
+              {syncing && <span className="muted small">Sincronizando…</span>}
+              <span className="muted small header-email">{user.email}</span>
+              <button type="button" className="btn btn-small" onClick={handleLogout}>
+                Cerrar sesión
+              </button>
+            </span>
+          ) : (
+            <NavLink to="/login" className="btn btn-small">
+              Iniciar sesión
+            </NavLink>
+          ))}
       </div>
     </header>
   );
@@ -82,6 +105,7 @@ export default function App() {
         Saltar al contenido
       </a>
       <Header />
+      <SyncBanner />
       <div id="contenido">
         <Routes>
           <Route path="/" element={<Dashboard />} />
@@ -96,7 +120,14 @@ export default function App() {
           <Route path="/placement/:moduleId" element={<PlacementPage />} />
           <Route path="/review" element={<ReviewPage />} />
           <Route path="/achievements" element={<AchievementsPage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route
+            path="/login"
+            element={
+              <Suspense fallback={<main className="page">Cargando…</main>}>
+                <LoginPage />
+              </Suspense>
+            }
+          />
         </Routes>
       </div>
       <AchievementToaster />

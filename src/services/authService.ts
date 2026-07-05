@@ -1,6 +1,7 @@
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signOut,
   type User,
@@ -29,6 +30,8 @@ export function authErrorMessage(err: unknown): string {
       return 'Correo o contraseña incorrectos.';
     case 'auth/too-many-requests':
       return 'Demasiados intentos. Espera un momento e inténtalo de nuevo.';
+    case 'auth/missing-email':
+      return 'Escribe tu correo electrónico primero.';
     default:
       return 'Ocurrió un error. Inténtalo de nuevo.';
   }
@@ -46,4 +49,8 @@ export async function loginWithEmail(email: string, password: string): Promise<U
 
 export async function logout(): Promise<void> {
   await signOut(auth);
+}
+
+export async function resetPassword(email: string): Promise<void> {
+  await sendPasswordResetEmail(auth, email);
 }

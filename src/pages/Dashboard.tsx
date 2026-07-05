@@ -40,6 +40,7 @@ export default function Dashboard() {
         </Link>
       </section>
 
+      <div className="dash-grid">
       <section className="card" aria-label="Progreso general">
         <h2>Tu progreso</h2>
         <div className="overall-progress">
@@ -86,6 +87,7 @@ export default function Dashboard() {
           ))}
         </ol>
       </section>
+      </div>
 
       <section className="card" aria-label="Niveles">
         <h2>Niveles</h2>
