@@ -3,15 +3,18 @@ import type { ReactNode } from 'react';
 import type { SyncStatus } from './services/cloudSync';
 import type { User } from './services/authService';
 
+/** Marca local: el usuario ha usado (o intentado usar) una cuenta alguna vez. */
+const AUTH_USED_KEY = 'hlp_auth_used';
+
 /**
  * Contexto global: un contador de versión que las páginas incrementan tras
  * escribir en localStorage (para que la cabecera y el panel se refresquen), y
  * el estado de autenticación (usuario o invitado). Cuando hay sesión iniciada,
  * cada bump() también programa una subida a la nube con retraso (debounce).
  *
- * Firebase (auth + Firestore) se importa de forma diferida (import() dinámico)
- * para que los usuarios invitados —que nunca usan cuentas— no paguen el coste
- * de ese paquete en su carga inicial.
+ * Firebase (auth + Firestore) se carga de forma diferida y SOLO si el usuario
+ * ha usado cuentas alguna vez (o abre la página de acceso): los invitados
+ * puros nunca descargan ese paquete y la app queda 100% sin conexión.
  */
 interface AppState {
   version: number;
@@ -21,6 +24,8 @@ interface AppState {
   syncing: boolean;
   syncStatus: SyncStatus;
   retrySync: () => void;
+  /** Carga Firebase Auth bajo demanda (la llama la página de acceso). */
+  ensureAuthLoaded: () => void;
 }
 
 const AppCtx = createContext<AppState>({
@@ -31,6 +36,7 @@ const AppCtx = createContext<AppState>({
   syncing: false,
   syncStatus: 'idle',
   retrySync: () => {},
+  ensureAuthLoaded: () => {},
 });
 
 export function AppStateProvider({ children }: { children: ReactNode }) {
@@ -41,17 +47,20 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const [syncStatus, setSyncStatus] = useState<SyncStatus>('idle');
   const userRef = useRef<User | null>(null);
   const cloudSyncRef = useRef<typeof import('./services/cloudSync') | null>(null);
+  const loadStarted = useRef(false);
 
-  useEffect(() => {
-    let unsubscribeSyncStatus: (() => void) | null = null;
-    let cancelled = false;
-
+  const ensureAuthLoaded = useCallback(() => {
+    if (loadStarted.current) return;
+    loadStarted.current = true;
+    try {
+      localStorage.setItem(AUTH_USED_KEY, '1');
+    } catch {
+      // sin almacenamiento disponible: seguimos igualmente
+    }
     Promise.all([import('./services/authService'), import('./services/cloudSync')]).then(
       ([authService, cloudSync]) => {
-        if (cancelled) return;
         cloudSyncRef.current = cloudSync;
-        unsubscribeSyncStatus = cloudSync.subscribeSyncStatus(setSyncStatus);
-
+        cloudSync.subscribeSyncStatus(setSyncStatus);
         authService.subscribeAuth((u) => {
           userRef.current = u;
           setUser(u);
@@ -69,12 +78,22 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         });
       },
     );
-
-    return () => {
-      cancelled = true;
-      unsubscribeSyncStatus?.();
-    };
   }, []);
+
+  useEffect(() => {
+    let used: string | null = null;
+    try {
+      used = localStorage.getItem(AUTH_USED_KEY);
+    } catch {
+      used = null;
+    }
+    if (used) {
+      ensureAuthLoaded();
+    } else {
+      // Invitado puro: no se carga Firebase; el estado "sin sesión" es definitivo.
+      setAuthReady(true);
+    }
+  }, [ensureAuthLoaded]);
 
   const bump = useCallback(() => {
     setVersion((v) => v + 1);
@@ -86,8 +105,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const value = useMemo(
-    () => ({ version, bump, user, authReady, syncing, syncStatus, retrySync }),
-    [version, bump, user, authReady, syncing, syncStatus, retrySync],
+    () => ({ version, bump, user, authReady, syncing, syncStatus, retrySync, ensureAuthLoaded }),
+    [version, bump, user, authReady, syncing, syncStatus, retrySync, ensureAuthLoaded],
   );
   return <AppCtx.Provider value={value}>{children}</AppCtx.Provider>;
 }

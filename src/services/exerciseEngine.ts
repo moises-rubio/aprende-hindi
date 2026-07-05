@@ -52,6 +52,11 @@ function shuffle<T>(arr: T[], rng: Rng): T[] {
   return a;
 }
 
+/** Barajado determinista a partir de una semilla de texto (para componentes de UI). */
+export function seededShuffle<T>(arr: T[], seed: string): T[] {
+  return shuffle(arr, makeRng(seed));
+}
+
 function pick<T>(arr: T[], n: number, rng: Rng): T[] {
   return shuffle(arr, rng).slice(0, n);
 }
@@ -69,9 +74,34 @@ export function normalizeText(s: string): string {
     .trim();
 }
 
+/** Distancia de Levenshtein acotada a 2 (suficiente para tolerancia de erratas). */
+function editDistance(a: string, b: string): number {
+  if (Math.abs(a.length - b.length) > 2) return 3;
+  const prev = new Array<number>(b.length + 1);
+  const curr = new Array<number>(b.length + 1);
+  for (let j = 0; j <= b.length; j++) prev[j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    curr[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost);
+    }
+    for (let j = 0; j <= b.length; j++) prev[j] = curr[j];
+  }
+  return prev[b.length];
+}
+
+/**
+ * Acepta cualquier variante ortográfica exacta y, para respuestas de 5+
+ * caracteres, tolera una errata de una letra (p. ej. «dhanyavad» ~ «dhanyavaad»).
+ */
 export function matchesAnswer(answers: string[], input: string): boolean {
   const norm = normalizeText(input);
-  return answers.some((a) => normalizeText(a) === norm);
+  return answers.some((a) => {
+    const target = normalizeText(a);
+    if (target === norm) return true;
+    return target.length >= 5 && editDistance(target, norm) <= 1;
+  });
 }
 
 /** Texto de la respuesta correcta para mostrar en la retroalimentación. */

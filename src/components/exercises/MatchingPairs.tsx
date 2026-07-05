@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { seededShuffle } from '../../services/exerciseEngine';
 import type { MatchingExercise } from '../../types';
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
  */
 export default function MatchingPairs({ exercise, answered, onAnswer }: Props) {
   const rights = useMemo(
-    () => exercise.pairs.map((p) => p.right).slice().sort(() => 0.5 - Math.random()),
+    () => seededShuffle(exercise.pairs.map((p) => p.right), `match-${exercise.id}`),
     [exercise.id],
   );
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null);

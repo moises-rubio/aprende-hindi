@@ -1,4 +1,4 @@
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { deleteDoc, doc, getDoc, setDoc } from 'firebase/firestore';
 import { STORAGE_KEYS } from '../constants';
 import { db } from './firebaseConfig';
 
@@ -87,4 +87,25 @@ export function scheduleCloudPush(uid: string | null): void {
 /** Reintento manual desde la interfaz cuando la última subida falló. */
 export function retrySync(): void {
   if (lastUid) attemptPush(lastUid);
+}
+
+/** Borra el documento de progreso en la nube (al eliminar la cuenta). */
+export async function deleteCloudData(uid: string): Promise<void> {
+  if (pushTimer) clearTimeout(pushTimer);
+  lastUid = null;
+  await deleteDoc(doc(db, 'hindi_progress', uid));
+}
+
+/** Exporta todo el progreso local como JSON descargable (portabilidad de datos). */
+export function exportLocalData(): string {
+  return JSON.stringify(
+    { app: 'aprende-hindi', exportedAt: new Date().toISOString(), data: readLocalState() },
+    null,
+    2,
+  );
+}
+
+/** Borra las claves locales de la aplicación (tras eliminar la cuenta). */
+export function clearLocalData(): void {
+  for (const key of LOCAL_KEYS) localStorage.removeItem(key);
 }

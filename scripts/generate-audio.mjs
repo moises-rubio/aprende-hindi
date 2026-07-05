@@ -3,9 +3,12 @@
 // Requires: gcloud CLI authenticated, texttospeech.googleapis.com enabled on GCP_PROJECT.
 
 import { execSync } from 'node:child_process';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+// Con FORCE=1 se regeneran todos los archivos; por defecto se omiten los existentes.
+const FORCE = process.env.FORCE === '1';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -69,6 +72,10 @@ async function main() {
   for (const [id, text] of wordEntries) {
     refreshToken();
     const path = join(wordsDir, `${id}.mp3`);
+    if (!FORCE && existsSync(path)) {
+      done++;
+      continue;
+    }
     try {
       const audio = await synthesize(token, text);
       writeFileSync(path, audio);
@@ -83,6 +90,10 @@ async function main() {
   for (const [key, text] of grammarEntries) {
     refreshToken();
     const path = join(grammarDir, `${key}.mp3`);
+    if (!FORCE && existsSync(path)) {
+      done++;
+      continue;
+    }
     try {
       const audio = await synthesize(token, text);
       writeFileSync(path, audio);

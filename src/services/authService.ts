@@ -1,6 +1,9 @@
 import {
+  EmailAuthProvider,
   createUserWithEmailAndPassword,
+  deleteUser,
   onAuthStateChanged,
+  reauthenticateWithCredential,
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signOut,
@@ -53,4 +56,20 @@ export async function logout(): Promise<void> {
 
 export async function resetPassword(email: string): Promise<void> {
   await sendPasswordResetEmail(auth, email);
+}
+
+/**
+ * Elimina la cuenta de forma permanente. Firebase exige un inicio de sesión
+ * reciente, así que se reautentica con la contraseña antes de borrar.
+ * El documento de progreso en la nube debe borrarse ANTES (mientras el
+ * usuario aún está autenticado, por las reglas de Firestore).
+ */
+export async function deleteAccount(password: string): Promise<void> {
+  const user = auth.currentUser;
+  if (!user || !user.email) throw new Error('No hay sesión activa.');
+  const credential = EmailAuthProvider.credential(user.email, password);
+  await reauthenticateWithCredential(user, credential);
+  const { deleteCloudData } = await import('./cloudSync');
+  await deleteCloudData(user.uid);
+  await deleteUser(user);
 }

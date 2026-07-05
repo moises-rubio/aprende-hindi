@@ -4,12 +4,15 @@
  */
 
 export function load<T>(key: string, fallback: T): T {
+  // El fallback se devuelve CLONADO: los servicios mutan el objeto devuelto,
+  // y devolver la constante compartida contaminaría el estado "vacío" de todo
+  // el módulo (p. ej. progreso fantasma tras borrar la cuenta).
   try {
     const raw = localStorage.getItem(key);
-    if (raw === null) return fallback;
+    if (raw === null) return structuredClone(fallback);
     return JSON.parse(raw) as T;
   } catch {
-    return fallback;
+    return structuredClone(fallback);
   }
 }
 

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ExerciseRunner from '../components/exercises/ExerciseRunner';
 import TimerDisplay from '../components/TimerDisplay';
@@ -33,6 +33,7 @@ export default function AssessmentPage() {
   const [questions, setQuestions] = useState<AssessmentQuestion[]>([]);
   const [secondsLeft, setSecondsLeft] = useState(ASSESSMENT_MINUTES * 60);
   const [expired, setExpired] = useState(false);
+  const deadlineRef = useRef<number>(0);
   const [score, setScore] = useState(0);
   const [skillScores, setSkillScores] = useState<Record<Skill, number>>({
     vocabulary: 0,
@@ -42,19 +43,20 @@ export default function AssessmentPage() {
   });
   const [recommended, setRecommended] = useState<string[]>([]);
 
-  // Temporizador de 45 minutos con envío automático al agotarse.
+  // Temporizador de 45 minutos con envío automático al agotarse. Se calcula
+  // contra una marca de tiempo límite (no decrementando), para que cambiar de
+  // pestaña —donde el navegador ralentiza los intervalos— no regale tiempo.
   useEffect(() => {
     if (phase !== 'running') return;
-    const t = window.setInterval(() => {
-      setSecondsLeft((s) => {
-        if (s <= 1) {
-          window.clearInterval(t);
-          setExpired(true);
-          return 0;
-        }
-        return s - 1;
-      });
-    }, 1000);
+    const tick = () => {
+      const remaining = Math.max(0, Math.round((deadlineRef.current - Date.now()) / 1000));
+      setSecondsLeft(remaining);
+      if (remaining <= 0) {
+        window.clearInterval(t);
+        setExpired(true);
+      }
+    };
+    const t = window.setInterval(tick, 1000);
     return () => window.clearInterval(t);
   }, [phase]);
 
@@ -76,6 +78,7 @@ export default function AssessmentPage() {
 
   const start = () => {
     setQuestions(generateAssessment(level.id));
+    deadlineRef.current = Date.now() + ASSESSMENT_MINUTES * 60 * 1000;
     setSecondsLeft(ASSESSMENT_MINUTES * 60);
     setExpired(false);
     setPhase('running');

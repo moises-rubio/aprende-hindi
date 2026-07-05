@@ -59,7 +59,23 @@
     "w-ummeed": "उम्मीद",
     "w-iraada": "इरादा",
     "w-kal": "कल",
-    "w-agla": "अगला"
+    "w-agla": "अगला",
+    "w-dukaan": "दुकान",
+    "w-keemat": "क़ीमत",
+    "w-mahanga": "महंगा",
+    "w-sasta": "सस्ता",
+    "w-rupaya": "रुपया",
+    "w-kitna": "कितना",
+    "w-kapde": "कपड़े",
+    "w-kharidna": "खरीदना",
+    "w-sehat": "सेहत",
+    "w-bimar": "बीमार",
+    "w-davai": "दवाई",
+    "w-dard": "दर्द",
+    "w-aaram": "आराम",
+    "w-neend": "नींद",
+    "w-vyayam": "व्यायाम",
+    "w-khush": "ख़ुश"
   },
   "grammarExamples": {
     "g-a1-pronombres-s1-e1": "मैं आना हूँ।",
@@ -71,7 +87,6 @@
     "g-a1-pronombres-s3-e1": "मेरा नाम हुआन है।",
     "g-a1-pronombres-s3-e2": "तुम्हारा घर बड़ा है।",
     "g-a1-pronombres-s3-e3": "आपका देश कौन सा है?",
-
     "g-a1-hona-s1-e1": "मैं ठीक हूँ।",
     "g-a1-hona-s1-e2": "तुम ठीक हो।",
     "g-a1-hona-s1-e3": "वह ठीक है।",
@@ -81,7 +96,6 @@
     "g-a1-hona-s3-e1": "मैं बीमार नहीं हूँ।",
     "g-a1-hona-s3-e2": "यह मुश्किल नहीं है।",
     "g-a1-hona-s3-e3": "वे यहाँ नहीं हैं।",
-
     "g-a1-genero-s1-e1": "यह लड़का है।",
     "g-a1-genero-s1-e2": "यह लड़की है।",
     "g-a1-genero-s1-e3": "मेरा बेटा छोटा है।",
@@ -91,7 +105,6 @@
     "g-a1-genero-s3-e1": "पानी ठंडा है।",
     "g-a1-genero-s3-e2": "चाय गरम है।",
     "g-a1-genero-s3-e3": "दूध गरम है।",
-
     "g-a1-sov-s1-e1": "मैं चाय पीता हूँ।",
     "g-a1-sov-s1-e2": "वह रोटी खाता है।",
     "g-a1-sov-s1-e3": "हम हिंदी सीखते हैं।",
@@ -101,7 +114,6 @@
     "g-a1-sov-s3-e1": "मैं दूध नहीं पीता।",
     "g-a1-sov-s3-e2": "वह काम नहीं करता।",
     "g-a1-sov-s3-e3": "हम नहीं जानते।",
-
     "g-a1-postposiciones-s1-e1": "मैं घर में हूँ।",
     "g-a1-postposiciones-s1-e2": "किताब मेज़ पर है।",
     "g-a1-postposiciones-s1-e3": "वह बाज़ार में है।",
@@ -111,7 +123,6 @@
     "g-a1-postposiciones-s3-e1": "यह राम का घर है।",
     "g-a1-postposiciones-s3-e2": "यह सीता की किताब है।",
     "g-a1-postposiciones-s3-e3": "वे मेरे पिता के दोस्त हैं।",
-
     "g-a2-presente-habitual-s1-e1": "मैं रोज़ काम करता हूँ।",
     "g-a2-presente-habitual-s1-e2": "वह चाय पीती है।",
     "g-a2-presente-habitual-s1-e3": "तुम जल्दी उठते हो।",
@@ -121,7 +132,6 @@
     "g-a2-presente-habitual-s3-e1": "मैं गोश्त नहीं खाता।",
     "g-a2-presente-habitual-s3-e2": "वह टीवी नहीं देखती।",
     "g-a2-presente-habitual-s3-e3": "हम देर से नहीं सोते।",
-
     "g-a2-pasado-tha-s1-e1": "मैं घर पर था।",
     "g-a2-pasado-tha-s1-e2": "वह खुश थी।",
     "g-a2-pasado-tha-s1-e3": "वे दफ़्तर में थे।",
@@ -131,7 +141,6 @@
     "g-a2-pasado-tha-s3-e1": "मैं वहाँ नहीं था।",
     "g-a2-pasado-tha-s3-e2": "दुकान खुली नहीं थी।",
     "g-a2-pasado-tha-s3-e3": "वे घर पर नहीं थे।",
-
     "g-a2-presente-continuo-s1-e1": "मैं खा रहा हूँ।",
     "g-a2-presente-continuo-s1-e2": "वह सो रही है।",
     "g-a2-presente-continuo-s1-e3": "बारिश हो रही है।",
@@ -141,7 +150,6 @@
     "g-a2-presente-continuo-s3-e1": "मैं अभी काम कर रहा हूँ।",
     "g-a2-presente-continuo-s3-e2": "मैं रोज़ काम करता हूँ।",
     "g-a2-presente-continuo-s3-e3": "वह आज घर पर रह रही है।",
-
     "g-a2-postposiciones-compuestas-s1-e1": "मैं दोस्त के साथ हूँ।",
     "g-a2-postposiciones-compuestas-s1-e2": "यह आपके लिए है।",
     "g-a2-postposiciones-compuestas-s1-e3": "वह माँ के साथ रहती है।",
@@ -151,7 +159,6 @@
     "g-a2-postposiciones-compuestas-s3-e1": "खाने के बाद चलेंगे।",
     "g-a2-postposiciones-compuestas-s3-e2": "काम से पहले नाश्ता करो।",
     "g-a2-postposiciones-compuestas-s3-e3": "क्लास के बाद मिलते हैं।",
-
     "g-a2-imperativo-s1-e1": "यहाँ आओ।",
     "g-a2-imperativo-s1-e2": "पानी पियो।",
     "g-a2-imperativo-s1-e3": "ध्यान से सुनो।",
@@ -161,7 +168,6 @@
     "g-a2-imperativo-s3-e1": "मत जाओ।",
     "g-a2-imperativo-s3-e2": "देर मत करो।",
     "g-a2-imperativo-s3-e3": "चिंता मत कीजिए।",
-
     "g-b1-futuro-s1-e1": "मैं कल आऊँगा।",
     "g-b1-futuro-s1-e2": "वह कल आएगी।",
     "g-b1-futuro-s1-e3": "तुम क्या करोगे?",
@@ -171,7 +177,6 @@
     "g-b1-futuro-s3-e1": "मैं अगले साल हिंदी सीखूँगा।",
     "g-b1-futuro-s3-e2": "वह नई नौकरी ढूँढेगी।",
     "g-b1-futuro-s3-e3": "हम घर खरीदेंगे।",
-
     "g-b1-ergativo-s1-e1": "मैं आया।",
     "g-b1-ergativo-s1-e2": "वह गई।",
     "g-b1-ergativo-s1-e3": "वे पहुँचे।",
@@ -181,7 +186,6 @@
     "g-b1-ergativo-s3-e1": "मैंने रोटी खाई।",
     "g-b1-ergativo-s3-e2": "उसने किताबें खरीदीं।",
     "g-b1-ergativo-s3-e3": "रामने पानी पिया।",
-
     "g-b1-subjuntivo-s1-e1": "मुझे चाय चाहिए।",
     "g-b1-subjuntivo-s1-e2": "आपको आराम चाहिए।",
     "g-b1-subjuntivo-s1-e3": "बच्चे को दूध चाहिए।",
@@ -191,7 +195,6 @@
     "g-b1-subjuntivo-s3-e1": "तुम्हे सोना चाहिए।",
     "g-b1-subjuntivo-s3-e2": "हमें जल्दी उठना चाहिए।",
     "g-b1-subjuntivo-s3-e3": "आपको डॉक्टर से मिलना चाहिए।",
-
     "g-b1-relativas-s1-e1": "जो आदमी वहाँ है, वह मेरा भाई है।",
     "g-b1-relativas-s1-e2": "जो तुम कहते हो, वह सच है।",
     "g-b1-relativas-s1-e3": "जो चाहिए, वह लो।",
@@ -201,7 +204,6 @@
     "g-b1-relativas-s3-e1": "जहाँ तुम जाओगे, वहाँ मैं जाऊँगा।",
     "g-b1-relativas-s3-e2": "जहाँ शांति है, वहाँ सुख है।",
     "g-b1-relativas-s3-e3": "वहाँ जाओ, जहाँ काम है।",
-
     "g-b1-sakna-s1-e1": "मैं हिंदी बोल सकता हूँ।",
     "g-b1-sakna-s1-e2": "क्या आप आ सकते हैं?",
     "g-b1-sakna-s1-e3": "वह नहीं आ सकती।",

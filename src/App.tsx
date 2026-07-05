@@ -67,7 +67,9 @@ function Header() {
           (user ? (
             <span className="header-account">
               {syncing && <span className="muted small">Sincronizando…</span>}
-              <span className="muted small header-email">{user.email}</span>
+              <NavLink to="/login" className="muted small header-email" aria-label="Tu cuenta">
+                {user.email}
+              </NavLink>
               <button type="button" className="btn btn-small" onClick={handleLogout}>
                 Cerrar sesión
               </button>

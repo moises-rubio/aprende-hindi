@@ -2,7 +2,11 @@
   {
     "id": "w-namaste",
     "hindi": "namaste",
-    "variants": ["namaste", "namastey", "namasthe"],
+    "variants": [
+      "namaste",
+      "namastey",
+      "namasthe"
+    ],
     "spanish": "hola / saludo",
     "ipa": "nə.məs.ˈteː",
     "category": "introducciones",
@@ -12,7 +16,10 @@
   {
     "id": "w-naam",
     "hindi": "naam",
-    "variants": ["naam", "nam"],
+    "variants": [
+      "naam",
+      "nam"
+    ],
     "spanish": "nombre",
     "ipa": "naːm",
     "category": "introducciones",
@@ -22,7 +29,10 @@
   {
     "id": "w-mera",
     "hindi": "mera",
-    "variants": ["mera", "meraa"],
+    "variants": [
+      "mera",
+      "meraa"
+    ],
     "spanish": "mi / mío",
     "ipa": "meː.raː",
     "category": "introducciones",
@@ -32,7 +42,10 @@
   {
     "id": "w-aap",
     "hindi": "aap",
-    "variants": ["aap", "ap"],
+    "variants": [
+      "aap",
+      "ap"
+    ],
     "spanish": "usted",
     "ipa": "aːp",
     "category": "introducciones",
@@ -42,7 +55,10 @@
   {
     "id": "w-kaise",
     "hindi": "kaise",
-    "variants": ["kaise", "kaisey"],
+    "variants": [
+      "kaise",
+      "kaisey"
+    ],
     "spanish": "cómo",
     "ipa": "kɛː.seː",
     "category": "introducciones",
@@ -52,7 +68,10 @@
   {
     "id": "w-theek",
     "hindi": "theek",
-    "variants": ["theek", "thik"],
+    "variants": [
+      "theek",
+      "thik"
+    ],
     "spanish": "bien",
     "ipa": "ʈʰiːk",
     "category": "introducciones",
@@ -62,7 +81,11 @@
   {
     "id": "w-dhanyavaad",
     "hindi": "dhanyavaad",
-    "variants": ["dhanyavaad", "dhanyavad", "dhanyawad"],
+    "variants": [
+      "dhanyavaad",
+      "dhanyavad",
+      "dhanyawad"
+    ],
     "spanish": "gracias",
     "ipa": "d̪ʱən.jə.ʋaːd̪",
     "category": "introducciones",
@@ -72,7 +95,10 @@
   {
     "id": "w-haan",
     "hindi": "haan",
-    "variants": ["haan", "han"],
+    "variants": [
+      "haan",
+      "han"
+    ],
     "spanish": "sí",
     "ipa": "ɦãː",
     "category": "introducciones",
@@ -82,7 +108,11 @@
   {
     "id": "w-nahin",
     "hindi": "nahin",
-    "variants": ["nahin", "nahi", "nahee"],
+    "variants": [
+      "nahin",
+      "nahi",
+      "nahee"
+    ],
     "spanish": "no",
     "ipa": "nə.ɦĩː",
     "category": "introducciones",
@@ -92,7 +122,10 @@
   {
     "id": "w-se",
     "hindi": "se",
-    "variants": ["se", "sey"],
+    "variants": [
+      "se",
+      "sey"
+    ],
     "spanish": "de / desde",
     "ipa": "seː",
     "category": "origen",
@@ -102,7 +135,10 @@
   {
     "id": "w-desh",
     "hindi": "desh",
-    "variants": ["desh", "des"],
+    "variants": [
+      "desh",
+      "des"
+    ],
     "spanish": "país",
     "ipa": "d̪eːʃ",
     "category": "origen",
@@ -112,7 +148,11 @@
   {
     "id": "w-shahar",
     "hindi": "shahar",
-    "variants": ["shahar", "sheher", "shahr"],
+    "variants": [
+      "shahar",
+      "sheher",
+      "shahr"
+    ],
     "spanish": "ciudad",
     "ipa": "ʃə.ɦər",
     "category": "origen",
@@ -122,7 +162,11 @@
   {
     "id": "w-maa",
     "hindi": "maa",
-    "variants": ["maa", "ma", "mata"],
+    "variants": [
+      "maa",
+      "ma",
+      "mata"
+    ],
     "spanish": "madre",
     "ipa": "maː",
     "category": "familia",
@@ -132,7 +176,10 @@
   {
     "id": "w-pita",
     "hindi": "pita",
-    "variants": ["pita", "pitaji"],
+    "variants": [
+      "pita",
+      "pitaji"
+    ],
     "spanish": "padre",
     "ipa": "pi.t̪aː",
     "category": "familia",
@@ -142,7 +189,10 @@
   {
     "id": "w-bhai",
     "hindi": "bhai",
-    "variants": ["bhai", "bhaai"],
+    "variants": [
+      "bhai",
+      "bhaai"
+    ],
     "spanish": "hermano",
     "ipa": "bʱaːi",
     "category": "familia",
@@ -152,7 +202,11 @@
   {
     "id": "w-behen",
     "hindi": "behen",
-    "variants": ["behen", "bahan", "behan"],
+    "variants": [
+      "behen",
+      "bahan",
+      "behan"
+    ],
     "spanish": "hermana",
     "ipa": "bɛ.ɦɛn",
     "category": "familia",
@@ -162,7 +216,10 @@
   {
     "id": "w-beta",
     "hindi": "beta",
-    "variants": ["beta", "betaa"],
+    "variants": [
+      "beta",
+      "betaa"
+    ],
     "spanish": "hijo",
     "ipa": "beː.ʈaː",
     "category": "familia",
@@ -172,7 +229,10 @@
   {
     "id": "w-beti",
     "hindi": "beti",
-    "variants": ["beti", "betee"],
+    "variants": [
+      "beti",
+      "betee"
+    ],
     "spanish": "hija",
     "ipa": "beː.ʈiː",
     "category": "familia",
@@ -182,7 +242,10 @@
   {
     "id": "w-parivaar",
     "hindi": "parivaar",
-    "variants": ["parivaar", "parivar"],
+    "variants": [
+      "parivaar",
+      "parivar"
+    ],
     "spanish": "familia",
     "ipa": "pə.ri.ʋaːr",
     "category": "familia",
@@ -192,7 +255,10 @@
   {
     "id": "w-dost",
     "hindi": "dost",
-    "variants": ["dost", "dosth"],
+    "variants": [
+      "dost",
+      "dosth"
+    ],
     "spanish": "amigo / amiga",
     "ipa": "d̪oːst̪",
     "category": "familia",
@@ -202,7 +268,10 @@
   {
     "id": "w-khana",
     "hindi": "khana",
-    "variants": ["khana", "khaana"],
+    "variants": [
+      "khana",
+      "khaana"
+    ],
     "spanish": "comida / comer",
     "ipa": "kʰaː.naː",
     "category": "comida",
@@ -212,7 +281,10 @@
   {
     "id": "w-paani",
     "hindi": "paani",
-    "variants": ["paani", "pani"],
+    "variants": [
+      "paani",
+      "pani"
+    ],
     "spanish": "agua",
     "ipa": "paː.niː",
     "category": "comida",
@@ -222,7 +294,10 @@
   {
     "id": "w-roti",
     "hindi": "roti",
-    "variants": ["roti", "rotee"],
+    "variants": [
+      "roti",
+      "rotee"
+    ],
     "spanish": "pan plano",
     "ipa": "roː.ʈiː",
     "category": "comida",
@@ -232,7 +307,11 @@
   {
     "id": "w-chai",
     "hindi": "chai",
-    "variants": ["chai", "chay", "chaay"],
+    "variants": [
+      "chai",
+      "chay",
+      "chaay"
+    ],
     "spanish": "té",
     "ipa": "tʃaːj",
     "category": "comida",
@@ -242,7 +321,10 @@
   {
     "id": "w-doodh",
     "hindi": "doodh",
-    "variants": ["doodh", "dudh"],
+    "variants": [
+      "doodh",
+      "dudh"
+    ],
     "spanish": "leche",
     "ipa": "d̪uːd̪ʱ",
     "category": "comida",
@@ -252,7 +334,10 @@
   {
     "id": "w-sabzi",
     "hindi": "sabzi",
-    "variants": ["sabzi", "sabji"],
+    "variants": [
+      "sabzi",
+      "sabji"
+    ],
     "spanish": "verdura",
     "ipa": "səb.ziː",
     "category": "comida",
@@ -262,7 +347,10 @@
   {
     "id": "w-phal",
     "hindi": "phal",
-    "variants": ["phal", "fal"],
+    "variants": [
+      "phal",
+      "fal"
+    ],
     "spanish": "fruta",
     "ipa": "pʰəl",
     "category": "comida",
@@ -272,7 +360,10 @@
   {
     "id": "w-meetha",
     "hindi": "meetha",
-    "variants": ["meetha", "mitha"],
+    "variants": [
+      "meetha",
+      "mitha"
+    ],
     "spanish": "dulce",
     "ipa": "miː.ʈʰaː",
     "category": "comida",
@@ -282,7 +373,10 @@
   {
     "id": "w-yatra",
     "hindi": "yatra",
-    "variants": ["yatra", "yaatra"],
+    "variants": [
+      "yatra",
+      "yaatra"
+    ],
     "spanish": "viaje",
     "ipa": "jaː.t̪raː",
     "category": "viajes",
@@ -292,7 +386,10 @@
   {
     "id": "w-gaadi",
     "hindi": "gaadi",
-    "variants": ["gaadi", "gadi"],
+    "variants": [
+      "gaadi",
+      "gadi"
+    ],
     "spanish": "coche / vehículo",
     "ipa": "gaː.ɽiː",
     "category": "viajes",
@@ -302,7 +399,11 @@
   {
     "id": "w-relgaadi",
     "hindi": "relgaadi",
-    "variants": ["relgaadi", "rail gaadi", "relgadi"],
+    "variants": [
+      "relgaadi",
+      "rail gaadi",
+      "relgadi"
+    ],
     "spanish": "tren",
     "ipa": "reːl.gaː.ɽiː",
     "category": "viajes",
@@ -312,7 +413,11 @@
   {
     "id": "w-havaijahaz",
     "hindi": "havai jahaz",
-    "variants": ["havai jahaz", "hawai jahaz", "havai jahaj"],
+    "variants": [
+      "havai jahaz",
+      "hawai jahaz",
+      "havai jahaj"
+    ],
     "spanish": "avión",
     "ipa": "ɦə.ʋaː.iː dʒə.ɦaːz",
     "category": "viajes",
@@ -322,7 +427,11 @@
   {
     "id": "w-tikat",
     "hindi": "tikat",
-    "variants": ["tikat", "ticket", "tikit"],
+    "variants": [
+      "tikat",
+      "ticket",
+      "tikit"
+    ],
     "spanish": "billete / boleto",
     "ipa": "ʈi.kəʈ",
     "category": "viajes",
@@ -332,7 +441,10 @@
   {
     "id": "w-hotal",
     "hindi": "hotal",
-    "variants": ["hotal", "hotel"],
+    "variants": [
+      "hotal",
+      "hotel"
+    ],
     "spanish": "hotel",
     "ipa": "ɦoː.ʈəl",
     "category": "viajes",
@@ -342,7 +454,10 @@
   {
     "id": "w-raasta",
     "hindi": "raasta",
-    "variants": ["raasta", "rasta"],
+    "variants": [
+      "raasta",
+      "rasta"
+    ],
     "spanish": "camino / ruta",
     "ipa": "raːs.t̪aː",
     "category": "viajes",
@@ -352,7 +467,11 @@
   {
     "id": "w-jagah",
     "hindi": "jagah",
-    "variants": ["jagah", "jaga", "jagaah"],
+    "variants": [
+      "jagah",
+      "jaga",
+      "jagaah"
+    ],
     "spanish": "lugar",
     "ipa": "dʒə.gəɦ",
     "category": "viajes",
@@ -362,7 +481,10 @@
   {
     "id": "w-subah",
     "hindi": "subah",
-    "variants": ["subah", "subha"],
+    "variants": [
+      "subah",
+      "subha"
+    ],
     "spanish": "mañana (parte del día)",
     "ipa": "su.bəɦ",
     "category": "vida-diaria",
@@ -372,7 +494,10 @@
   {
     "id": "w-raat",
     "hindi": "raat",
-    "variants": ["raat", "rat"],
+    "variants": [
+      "raat",
+      "rat"
+    ],
     "spanish": "noche",
     "ipa": "raːt̪",
     "category": "vida-diaria",
@@ -382,7 +507,10 @@
   {
     "id": "w-kaam",
     "hindi": "kaam",
-    "variants": ["kaam", "kam"],
+    "variants": [
+      "kaam",
+      "kam"
+    ],
     "spanish": "trabajo / tarea",
     "ipa": "kaːm",
     "category": "vida-diaria",
@@ -392,7 +520,10 @@
   {
     "id": "w-ghar",
     "hindi": "ghar",
-    "variants": ["ghar", "gar"],
+    "variants": [
+      "ghar",
+      "gar"
+    ],
     "spanish": "casa",
     "ipa": "gʱər",
     "category": "vida-diaria",
@@ -402,7 +533,11 @@
   {
     "id": "w-bazaar",
     "hindi": "bazaar",
-    "variants": ["bazaar", "bazar", "baazaar"],
+    "variants": [
+      "bazaar",
+      "bazar",
+      "baazaar"
+    ],
     "spanish": "mercado",
     "ipa": "baː.zaːr",
     "category": "vida-diaria",
@@ -412,7 +547,10 @@
   {
     "id": "w-samay",
     "hindi": "samay",
-    "variants": ["samay", "samai"],
+    "variants": [
+      "samay",
+      "samai"
+    ],
     "spanish": "tiempo / hora",
     "ipa": "sə.məj",
     "category": "vida-diaria",
@@ -422,7 +560,10 @@
   {
     "id": "w-din",
     "hindi": "din",
-    "variants": ["din", "dhin"],
+    "variants": [
+      "din",
+      "dhin"
+    ],
     "spanish": "día",
     "ipa": "d̪in",
     "category": "vida-diaria",
@@ -432,7 +573,10 @@
   {
     "id": "w-hafta",
     "hindi": "hafta",
-    "variants": ["hafta", "haftaa"],
+    "variants": [
+      "hafta",
+      "haftaa"
+    ],
     "spanish": "semana",
     "ipa": "ɦəf.t̪aː",
     "category": "vida-diaria",
@@ -442,7 +586,11 @@
   {
     "id": "w-naukri",
     "hindi": "naukri",
-    "variants": ["naukri", "naukari", "nokri"],
+    "variants": [
+      "naukri",
+      "naukari",
+      "nokri"
+    ],
     "spanish": "empleo",
     "ipa": "nɔːk.riː",
     "category": "trabajo",
@@ -452,7 +600,10 @@
   {
     "id": "w-daftar",
     "hindi": "daftar",
-    "variants": ["daftar", "dafter"],
+    "variants": [
+      "daftar",
+      "dafter"
+    ],
     "spanish": "oficina",
     "ipa": "d̪əf.t̪ər",
     "category": "trabajo",
@@ -462,7 +613,10 @@
   {
     "id": "w-paisa",
     "hindi": "paisa",
-    "variants": ["paisa", "paisaa"],
+    "variants": [
+      "paisa",
+      "paisaa"
+    ],
     "spanish": "dinero",
     "ipa": "pɛː.saː",
     "category": "trabajo",
@@ -472,7 +626,10 @@
   {
     "id": "w-vetan",
     "hindi": "vetan",
-    "variants": ["vetan", "wetan"],
+    "variants": [
+      "vetan",
+      "wetan"
+    ],
     "spanish": "salario",
     "ipa": "ʋeː.t̪ən",
     "category": "trabajo",
@@ -482,7 +639,10 @@
   {
     "id": "w-sahakarmi",
     "hindi": "sahakarmi",
-    "variants": ["sahakarmi", "sehkarmi"],
+    "variants": [
+      "sahakarmi",
+      "sehkarmi"
+    ],
     "spanish": "colega / compañero de trabajo",
     "ipa": "sə.ɦə.kər.miː",
     "category": "trabajo",
@@ -492,7 +652,10 @@
   {
     "id": "w-baithak",
     "hindi": "baithak",
-    "variants": ["baithak", "bethak"],
+    "variants": [
+      "baithak",
+      "bethak"
+    ],
     "spanish": "reunión",
     "ipa": "bɛː.ʈʰək",
     "category": "trabajo",
@@ -502,7 +665,10 @@
   {
     "id": "w-chhutti",
     "hindi": "chhutti",
-    "variants": ["chhutti", "chutti"],
+    "variants": [
+      "chhutti",
+      "chutti"
+    ],
     "spanish": "día libre / vacaciones",
     "ipa": "tʃʰuʈ.ʈiː",
     "category": "trabajo",
@@ -512,7 +678,10 @@
   {
     "id": "w-malik",
     "hindi": "malik",
-    "variants": ["malik", "maalik"],
+    "variants": [
+      "malik",
+      "maalik"
+    ],
     "spanish": "jefe / dueño",
     "ipa": "maː.lik",
     "category": "trabajo",
@@ -522,7 +691,11 @@
   {
     "id": "w-bhavishya",
     "hindi": "bhavishya",
-    "variants": ["bhavishya", "bhavishy", "bhavisya"],
+    "variants": [
+      "bhavishya",
+      "bhavishy",
+      "bhavisya"
+    ],
     "spanish": "futuro",
     "ipa": "bʱə.ʋiʃ.jə",
     "category": "planes-futuros",
@@ -532,7 +705,10 @@
   {
     "id": "w-yojana",
     "hindi": "yojana",
-    "variants": ["yojana", "yojna"],
+    "variants": [
+      "yojana",
+      "yojna"
+    ],
     "spanish": "plan",
     "ipa": "joː.dʒə.naː",
     "category": "planes-futuros",
@@ -542,7 +718,10 @@
   {
     "id": "w-sapna",
     "hindi": "sapna",
-    "variants": ["sapna", "sapnaa"],
+    "variants": [
+      "sapna",
+      "sapnaa"
+    ],
     "spanish": "sueño (aspiración)",
     "ipa": "səp.naː",
     "category": "planes-futuros",
@@ -552,7 +731,11 @@
   {
     "id": "w-lakshya",
     "hindi": "lakshya",
-    "variants": ["lakshya", "lakshy", "laksh"],
+    "variants": [
+      "lakshya",
+      "lakshy",
+      "laksh"
+    ],
     "spanish": "meta / objetivo",
     "ipa": "ləkʃ.jə",
     "category": "planes-futuros",
@@ -562,7 +745,11 @@
   {
     "id": "w-ummeed",
     "hindi": "ummeed",
-    "variants": ["ummeed", "umeed", "ummid"],
+    "variants": [
+      "ummeed",
+      "umeed",
+      "ummid"
+    ],
     "spanish": "esperanza",
     "ipa": "um.miːd̪",
     "category": "planes-futuros",
@@ -572,7 +759,10 @@
   {
     "id": "w-iraada",
     "hindi": "iraada",
-    "variants": ["iraada", "irada"],
+    "variants": [
+      "iraada",
+      "irada"
+    ],
     "spanish": "intención",
     "ipa": "i.raː.d̪aː",
     "category": "planes-futuros",
@@ -582,7 +772,10 @@
   {
     "id": "w-kal",
     "hindi": "kal",
-    "variants": ["kal", "kull"],
+    "variants": [
+      "kal",
+      "kull"
+    ],
     "spanish": "mañana / ayer",
     "ipa": "kəl",
     "category": "planes-futuros",
@@ -592,11 +785,228 @@
   {
     "id": "w-agla",
     "hindi": "agla",
-    "variants": ["agla", "aglaa"],
+    "variants": [
+      "agla",
+      "aglaa"
+    ],
     "spanish": "próximo / siguiente",
     "ipa": "əg.laː",
     "category": "planes-futuros",
     "exampleHi": "Agla saal accha hoga.",
     "exampleEs": "El próximo año será bueno."
+  },
+  {
+    "id": "w-dukaan",
+    "hindi": "dukaan",
+    "variants": [
+      "dukaan",
+      "dukan"
+    ],
+    "spanish": "tienda",
+    "ipa": "d̪u.kaːn",
+    "category": "vida-diaria",
+    "exampleHi": "Dukaan subah khulti hai.",
+    "exampleEs": "La tienda abre por la mañana."
+  },
+  {
+    "id": "w-keemat",
+    "hindi": "keemat",
+    "variants": [
+      "keemat",
+      "kimat",
+      "qeemat"
+    ],
+    "spanish": "precio",
+    "ipa": "kiː.mət̪",
+    "category": "vida-diaria",
+    "exampleHi": "Iski keemat kya hai?",
+    "exampleEs": "¿Cuál es su precio?"
+  },
+  {
+    "id": "w-mahanga",
+    "hindi": "mahanga",
+    "variants": [
+      "mahanga",
+      "mehnga"
+    ],
+    "spanish": "caro",
+    "ipa": "mə.ɦə̃.gaː",
+    "category": "vida-diaria",
+    "exampleHi": "Yah bahut mahanga hai.",
+    "exampleEs": "Esto es muy caro."
+  },
+  {
+    "id": "w-sasta",
+    "hindi": "sasta",
+    "variants": [
+      "sasta",
+      "sastaa"
+    ],
+    "spanish": "barato",
+    "ipa": "səs.t̪aː",
+    "category": "vida-diaria",
+    "exampleHi": "Bazaar mein phal sasta hai.",
+    "exampleEs": "En el mercado la fruta es barata."
+  },
+  {
+    "id": "w-rupaya",
+    "hindi": "rupaya",
+    "variants": [
+      "rupaya",
+      "rupya",
+      "rupiya"
+    ],
+    "spanish": "rupia (moneda)",
+    "ipa": "ru.pə.jaː",
+    "category": "vida-diaria",
+    "exampleHi": "Yah ek rupaya hai.",
+    "exampleEs": "Esto es una rupia."
+  },
+  {
+    "id": "w-kitna",
+    "hindi": "kitna",
+    "variants": [
+      "kitna",
+      "kitnaa"
+    ],
+    "spanish": "cuánto",
+    "ipa": "kit̪.naː",
+    "category": "vida-diaria",
+    "exampleHi": "Yah kitna hai?",
+    "exampleEs": "¿Cuánto cuesta esto?"
+  },
+  {
+    "id": "w-kapde",
+    "hindi": "kapde",
+    "variants": [
+      "kapde",
+      "kapre",
+      "kapade"
+    ],
+    "spanish": "ropa",
+    "ipa": "kəp.ɽeː",
+    "category": "vida-diaria",
+    "exampleHi": "Mujhe naye kapde chahiye.",
+    "exampleEs": "Necesito ropa nueva."
+  },
+  {
+    "id": "w-kharidna",
+    "hindi": "kharidna",
+    "variants": [
+      "kharidna",
+      "kharedna"
+    ],
+    "spanish": "comprar",
+    "ipa": "kʰə.riːd̪.naː",
+    "category": "vida-diaria",
+    "exampleHi": "Main sabzi kharidna chahta hoon.",
+    "exampleEs": "Quiero comprar verdura."
+  },
+  {
+    "id": "w-sehat",
+    "hindi": "sehat",
+    "variants": [
+      "sehat",
+      "sehhat",
+      "sehet"
+    ],
+    "spanish": "salud",
+    "ipa": "seː.ɦət̪",
+    "category": "vida-diaria",
+    "exampleHi": "Sehat sabse badi daulat hai.",
+    "exampleEs": "La salud es la mayor riqueza."
+  },
+  {
+    "id": "w-bimar",
+    "hindi": "bimar",
+    "variants": [
+      "bimar",
+      "beemar"
+    ],
+    "spanish": "enfermo",
+    "ipa": "biː.maːr",
+    "category": "vida-diaria",
+    "exampleHi": "Vah aaj bimar hai.",
+    "exampleEs": "Él está enfermo hoy."
+  },
+  {
+    "id": "w-davai",
+    "hindi": "davai",
+    "variants": [
+      "davai",
+      "dawai",
+      "dava"
+    ],
+    "spanish": "medicina",
+    "ipa": "d̪ə.ʋaː.iː",
+    "category": "vida-diaria",
+    "exampleHi": "Yah davai din mein do baar lo.",
+    "exampleEs": "Toma esta medicina dos veces al día."
+  },
+  {
+    "id": "w-dard",
+    "hindi": "dard",
+    "variants": [
+      "dard",
+      "darad"
+    ],
+    "spanish": "dolor",
+    "ipa": "d̪ərd̪",
+    "category": "vida-diaria",
+    "exampleHi": "Mere sir mein dard hai.",
+    "exampleEs": "Me duele la cabeza."
+  },
+  {
+    "id": "w-aaram",
+    "hindi": "aaram",
+    "variants": [
+      "aaram",
+      "aram"
+    ],
+    "spanish": "descanso",
+    "ipa": "aː.raːm",
+    "category": "vida-diaria",
+    "exampleHi": "Thoda aaram karo.",
+    "exampleEs": "Descansa un poco."
+  },
+  {
+    "id": "w-neend",
+    "hindi": "neend",
+    "variants": [
+      "neend",
+      "nind"
+    ],
+    "spanish": "sueño (ganas de dormir)",
+    "ipa": "niːnd̪",
+    "category": "vida-diaria",
+    "exampleHi": "Mujhe neend aa rahi hai.",
+    "exampleEs": "Tengo sueño."
+  },
+  {
+    "id": "w-vyayam",
+    "hindi": "vyayam",
+    "variants": [
+      "vyayam",
+      "vyaayaam",
+      "viyayam"
+    ],
+    "spanish": "ejercicio (físico)",
+    "ipa": "ʋjaː.jaːm",
+    "category": "vida-diaria",
+    "exampleHi": "Roz vyayam karna accha hai.",
+    "exampleEs": "Hacer ejercicio a diario es bueno."
+  },
+  {
+    "id": "w-khush",
+    "hindi": "khush",
+    "variants": [
+      "khush",
+      "kush"
+    ],
+    "spanish": "feliz / contento",
+    "ipa": "kʰuʃ",
+    "category": "vida-diaria",
+    "exampleHi": "Aaj main bahut khush hoon.",
+    "exampleEs": "Hoy estoy muy feliz."
   }
 ]

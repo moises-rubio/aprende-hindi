@@ -68,6 +68,20 @@
       "title": "Planes de futuro",
       "description": "Metas, sueños e intenciones en futuro.",
       "order": 2
+    },
+    {
+      "id": "a2-m3",
+      "levelId": "A2",
+      "title": "De compras",
+      "description": "Regatea, pregunta precios y compra en el bazar.",
+      "order": 3
+    },
+    {
+      "id": "b1-m3",
+      "levelId": "B1",
+      "title": "Salud y bienestar",
+      "description": "Habla de salud, dolores y hábitos saludables.",
+      "order": 3
     }
   ],
   "lessons": [
@@ -78,7 +92,20 @@
       "description": "Palabras esenciales para saludar y presentarte.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-namaste", "w-naam", "w-mera", "w-aap", "w-kaise", "w-theek", "w-dhanyavaad", "w-haan", "w-nahin", "w-se", "w-desh", "w-shahar"]
+      "vocabIds": [
+        "w-namaste",
+        "w-naam",
+        "w-mera",
+        "w-aap",
+        "w-kaise",
+        "w-theek",
+        "w-dhanyavaad",
+        "w-haan",
+        "w-nahin",
+        "w-se",
+        "w-desh",
+        "w-shahar"
+      ]
     },
     {
       "id": "a1-m1-l2",
@@ -87,7 +114,12 @@
       "description": "main, tum, aap y los posesivos.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-namaste", "w-naam", "w-mera", "w-aap"],
+      "vocabIds": [
+        "w-namaste",
+        "w-naam",
+        "w-mera",
+        "w-aap"
+      ],
       "grammarTopicId": "g-a1-pronombres"
     },
     {
@@ -97,7 +129,16 @@
       "description": "Reconoce saludos y presentaciones al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-namaste", "w-naam", "w-kaise", "w-theek", "w-dhanyavaad", "w-haan", "w-nahin", "w-se"]
+      "vocabIds": [
+        "w-namaste",
+        "w-naam",
+        "w-kaise",
+        "w-theek",
+        "w-dhanyavaad",
+        "w-haan",
+        "w-nahin",
+        "w-se"
+      ]
     },
     {
       "id": "a1-m1-l4",
@@ -106,7 +147,16 @@
       "description": "Produce tus primeras frases de presentación.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-namaste", "w-naam", "w-mera", "w-aap", "w-kaise", "w-theek", "w-dhanyavaad", "w-desh"]
+      "vocabIds": [
+        "w-namaste",
+        "w-naam",
+        "w-mera",
+        "w-aap",
+        "w-kaise",
+        "w-theek",
+        "w-dhanyavaad",
+        "w-desh"
+      ]
     },
     {
       "id": "a1-m2-l1",
@@ -115,7 +165,16 @@
       "description": "Los miembros de la familia en hindi.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen", "w-beta", "w-beti", "w-parivaar", "w-dost"]
+      "vocabIds": [
+        "w-maa",
+        "w-pita",
+        "w-bhai",
+        "w-behen",
+        "w-beta",
+        "w-beti",
+        "w-parivaar",
+        "w-dost"
+      ]
     },
     {
       "id": "a1-m2-l2",
@@ -124,7 +183,12 @@
       "description": "hoon, ho, hai, hain.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen"],
+      "vocabIds": [
+        "w-maa",
+        "w-pita",
+        "w-bhai",
+        "w-behen"
+      ],
       "grammarTopicId": "g-a1-hona"
     },
     {
@@ -134,7 +198,16 @@
       "description": "Reconoce los nombres de la familia al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen", "w-beta", "w-beti", "w-parivaar", "w-dost"]
+      "vocabIds": [
+        "w-maa",
+        "w-pita",
+        "w-bhai",
+        "w-behen",
+        "w-beta",
+        "w-beti",
+        "w-parivaar",
+        "w-dost"
+      ]
     },
     {
       "id": "a1-m2-l4",
@@ -143,7 +216,16 @@
       "description": "Describe a tu familia con frases sencillas.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-maa", "w-pita", "w-bhai", "w-behen", "w-beta", "w-beti", "w-parivaar", "w-dost"]
+      "vocabIds": [
+        "w-maa",
+        "w-pita",
+        "w-bhai",
+        "w-behen",
+        "w-beta",
+        "w-beti",
+        "w-parivaar",
+        "w-dost"
+      ]
     },
     {
       "id": "a1-m3-l1",
@@ -152,7 +234,16 @@
       "description": "Alimentos y bebidas básicos.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-khana", "w-paani", "w-roti", "w-chai", "w-doodh", "w-sabzi", "w-phal", "w-meetha"]
+      "vocabIds": [
+        "w-khana",
+        "w-paani",
+        "w-roti",
+        "w-chai",
+        "w-doodh",
+        "w-sabzi",
+        "w-phal",
+        "w-meetha"
+      ]
     },
     {
       "id": "a1-m3-l2",
@@ -161,7 +252,12 @@
       "description": "Masculino y femenino, concordancia del adjetivo.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-khana", "w-paani", "w-chai", "w-doodh"],
+      "vocabIds": [
+        "w-khana",
+        "w-paani",
+        "w-chai",
+        "w-doodh"
+      ],
       "grammarTopicId": "g-a1-genero"
     },
     {
@@ -171,7 +267,16 @@
       "description": "Reconoce comidas y bebidas al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-khana", "w-paani", "w-roti", "w-chai", "w-doodh", "w-sabzi", "w-phal", "w-meetha"]
+      "vocabIds": [
+        "w-khana",
+        "w-paani",
+        "w-roti",
+        "w-chai",
+        "w-doodh",
+        "w-sabzi",
+        "w-phal",
+        "w-meetha"
+      ]
     },
     {
       "id": "a1-m3-l4",
@@ -180,7 +285,16 @@
       "description": "Pide comida y bebida en hindi.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-khana", "w-paani", "w-roti", "w-chai", "w-doodh", "w-sabzi", "w-phal", "w-meetha"]
+      "vocabIds": [
+        "w-khana",
+        "w-paani",
+        "w-roti",
+        "w-chai",
+        "w-doodh",
+        "w-sabzi",
+        "w-phal",
+        "w-meetha"
+      ]
     },
     {
       "id": "a2-m1-l1",
@@ -189,7 +303,16 @@
       "description": "Medios de transporte, billetes y alojamiento.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-havaijahaz", "w-tikat", "w-hotal", "w-raasta", "w-jagah"]
+      "vocabIds": [
+        "w-yatra",
+        "w-gaadi",
+        "w-relgaadi",
+        "w-havaijahaz",
+        "w-tikat",
+        "w-hotal",
+        "w-raasta",
+        "w-jagah"
+      ]
     },
     {
       "id": "a2-m1-l2",
@@ -198,7 +321,12 @@
       "description": "-ta / -ti / -te + hona.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-tikat"],
+      "vocabIds": [
+        "w-yatra",
+        "w-gaadi",
+        "w-relgaadi",
+        "w-tikat"
+      ],
       "grammarTopicId": "g-a2-presente-habitual"
     },
     {
@@ -208,7 +336,16 @@
       "description": "Reconoce vocabulario de viaje al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-havaijahaz", "w-tikat", "w-hotal", "w-raasta", "w-jagah"]
+      "vocabIds": [
+        "w-yatra",
+        "w-gaadi",
+        "w-relgaadi",
+        "w-havaijahaz",
+        "w-tikat",
+        "w-hotal",
+        "w-raasta",
+        "w-jagah"
+      ]
     },
     {
       "id": "a2-m1-l4",
@@ -217,7 +354,16 @@
       "description": "Frases para comprar billetes y preguntar caminos.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-yatra", "w-gaadi", "w-relgaadi", "w-havaijahaz", "w-tikat", "w-hotal", "w-raasta", "w-jagah"]
+      "vocabIds": [
+        "w-yatra",
+        "w-gaadi",
+        "w-relgaadi",
+        "w-havaijahaz",
+        "w-tikat",
+        "w-hotal",
+        "w-raasta",
+        "w-jagah"
+      ]
     },
     {
       "id": "a2-m2-l1",
@@ -226,7 +372,16 @@
       "description": "Momentos del día, casa y mercado.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-subah", "w-raat", "w-kaam", "w-ghar", "w-bazaar", "w-samay", "w-din", "w-hafta"]
+      "vocabIds": [
+        "w-subah",
+        "w-raat",
+        "w-kaam",
+        "w-ghar",
+        "w-bazaar",
+        "w-samay",
+        "w-din",
+        "w-hafta"
+      ]
     },
     {
       "id": "a2-m2-l2",
@@ -235,7 +390,12 @@
       "description": "Estados y hábitos en pasado.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-subah", "w-raat", "w-ghar", "w-kaam"],
+      "vocabIds": [
+        "w-subah",
+        "w-raat",
+        "w-ghar",
+        "w-kaam"
+      ],
       "grammarTopicId": "g-a2-pasado-tha"
     },
     {
@@ -245,7 +405,16 @@
       "description": "Reconoce la rutina diaria al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-subah", "w-raat", "w-kaam", "w-ghar", "w-bazaar", "w-samay", "w-din", "w-hafta"]
+      "vocabIds": [
+        "w-subah",
+        "w-raat",
+        "w-kaam",
+        "w-ghar",
+        "w-bazaar",
+        "w-samay",
+        "w-din",
+        "w-hafta"
+      ]
     },
     {
       "id": "a2-m2-l4",
@@ -254,7 +423,16 @@
       "description": "Cuenta tu rutina con el presente habitual.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-subah", "w-raat", "w-kaam", "w-ghar", "w-bazaar", "w-samay", "w-din", "w-hafta"]
+      "vocabIds": [
+        "w-subah",
+        "w-raat",
+        "w-kaam",
+        "w-ghar",
+        "w-bazaar",
+        "w-samay",
+        "w-din",
+        "w-hafta"
+      ]
     },
     {
       "id": "b1-m1-l1",
@@ -263,7 +441,16 @@
       "description": "Oficina, salario, reuniones y jefes.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-naukri", "w-daftar", "w-paisa", "w-vetan", "w-sahakarmi", "w-baithak", "w-chhutti", "w-malik"]
+      "vocabIds": [
+        "w-naukri",
+        "w-daftar",
+        "w-paisa",
+        "w-vetan",
+        "w-sahakarmi",
+        "w-baithak",
+        "w-chhutti",
+        "w-malik"
+      ]
     },
     {
       "id": "b1-m1-l2",
@@ -272,7 +459,12 @@
       "description": "La construcción ergativa del hindi.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-naukri", "w-daftar", "w-baithak", "w-kaam"],
+      "vocabIds": [
+        "w-naukri",
+        "w-daftar",
+        "w-baithak",
+        "w-kaam"
+      ],
       "grammarTopicId": "g-b1-ergativo"
     },
     {
@@ -282,7 +474,16 @@
       "description": "Reconoce vocabulario laboral al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-naukri", "w-daftar", "w-paisa", "w-vetan", "w-sahakarmi", "w-baithak", "w-chhutti", "w-malik"]
+      "vocabIds": [
+        "w-naukri",
+        "w-daftar",
+        "w-paisa",
+        "w-vetan",
+        "w-sahakarmi",
+        "w-baithak",
+        "w-chhutti",
+        "w-malik"
+      ]
     },
     {
       "id": "b1-m1-l4",
@@ -291,7 +492,16 @@
       "description": "Describe tu empleo y tus responsabilidades.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-naukri", "w-daftar", "w-paisa", "w-vetan", "w-sahakarmi", "w-baithak", "w-chhutti", "w-malik"]
+      "vocabIds": [
+        "w-naukri",
+        "w-daftar",
+        "w-paisa",
+        "w-vetan",
+        "w-sahakarmi",
+        "w-baithak",
+        "w-chhutti",
+        "w-malik"
+      ]
     },
     {
       "id": "b1-m2-l1",
@@ -300,7 +510,16 @@
       "description": "Palabras para hablar del futuro.",
       "skill": "vocabulary",
       "order": 1,
-      "vocabIds": ["w-bhavishya", "w-yojana", "w-sapna", "w-lakshya", "w-ummeed", "w-iraada", "w-kal", "w-agla"]
+      "vocabIds": [
+        "w-bhavishya",
+        "w-yojana",
+        "w-sapna",
+        "w-lakshya",
+        "w-ummeed",
+        "w-iraada",
+        "w-kal",
+        "w-agla"
+      ]
     },
     {
       "id": "b1-m2-l2",
@@ -309,7 +528,12 @@
       "description": "-unga / -egi / -enge.",
       "skill": "grammar",
       "order": 2,
-      "vocabIds": ["w-bhavishya", "w-yojana", "w-kal", "w-agla"],
+      "vocabIds": [
+        "w-bhavishya",
+        "w-yojana",
+        "w-kal",
+        "w-agla"
+      ],
       "grammarTopicId": "g-b1-futuro"
     },
     {
@@ -319,7 +543,16 @@
       "description": "Reconoce planes e intenciones al oído.",
       "skill": "listening",
       "order": 3,
-      "vocabIds": ["w-bhavishya", "w-yojana", "w-sapna", "w-lakshya", "w-ummeed", "w-iraada", "w-kal", "w-agla"]
+      "vocabIds": [
+        "w-bhavishya",
+        "w-yojana",
+        "w-sapna",
+        "w-lakshya",
+        "w-ummeed",
+        "w-iraada",
+        "w-kal",
+        "w-agla"
+      ]
     },
     {
       "id": "b1-m2-l4",
@@ -328,7 +561,154 @@
       "description": "Habla de tus metas usando el futuro.",
       "skill": "speaking",
       "order": 4,
-      "vocabIds": ["w-bhavishya", "w-yojana", "w-sapna", "w-lakshya", "w-ummeed", "w-iraada", "w-kal", "w-agla"]
+      "vocabIds": [
+        "w-bhavishya",
+        "w-yojana",
+        "w-sapna",
+        "w-lakshya",
+        "w-ummeed",
+        "w-iraada",
+        "w-kal",
+        "w-agla"
+      ]
+    },
+    {
+      "id": "a2-m3-l1",
+      "moduleId": "a2-m3",
+      "title": "Vocabulario: en el bazar",
+      "description": "Precios, tiendas y compras.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": [
+        "w-dukaan",
+        "w-keemat",
+        "w-mahanga",
+        "w-sasta",
+        "w-rupaya",
+        "w-kitna",
+        "w-kapde",
+        "w-kharidna"
+      ]
+    },
+    {
+      "id": "a2-m3-l2",
+      "moduleId": "a2-m3",
+      "title": "Gramática: el imperativo y la cortesía",
+      "description": "Pide y ordena: -o, -iye y la prohibición con mat.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": [
+        "w-dukaan",
+        "w-keemat",
+        "w-kitna",
+        "w-kharidna"
+      ],
+      "grammarTopicId": "g-a2-imperativo"
+    },
+    {
+      "id": "a2-m3-l3",
+      "moduleId": "a2-m3",
+      "title": "Escucha: regateando",
+      "description": "Reconoce precios y compras al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": [
+        "w-dukaan",
+        "w-keemat",
+        "w-mahanga",
+        "w-sasta",
+        "w-rupaya",
+        "w-kitna",
+        "w-kapde",
+        "w-kharidna"
+      ]
+    },
+    {
+      "id": "a2-m3-l4",
+      "moduleId": "a2-m3",
+      "title": "Expresión: compra en el mercado",
+      "description": "Pregunta precios y pide rebajas en hindi.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": [
+        "w-dukaan",
+        "w-keemat",
+        "w-mahanga",
+        "w-sasta",
+        "w-rupaya",
+        "w-kitna",
+        "w-kapde",
+        "w-kharidna"
+      ]
+    },
+    {
+      "id": "b1-m3-l1",
+      "moduleId": "b1-m3",
+      "title": "Vocabulario: salud y cuerpo",
+      "description": "Salud, dolores y descanso.",
+      "skill": "vocabulary",
+      "order": 1,
+      "vocabIds": [
+        "w-sehat",
+        "w-bimar",
+        "w-davai",
+        "w-dard",
+        "w-aaram",
+        "w-neend",
+        "w-vyayam",
+        "w-khush"
+      ]
+    },
+    {
+      "id": "b1-m3-l2",
+      "moduleId": "b1-m3",
+      "title": "Gramática: subjuntivo y chahiye",
+      "description": "Necesidades, deseos y consejos.",
+      "skill": "grammar",
+      "order": 2,
+      "vocabIds": [
+        "w-sehat",
+        "w-davai",
+        "w-aaram",
+        "w-vyayam"
+      ],
+      "grammarTopicId": "g-b1-subjuntivo"
+    },
+    {
+      "id": "b1-m3-l3",
+      "moduleId": "b1-m3",
+      "title": "Escucha: en la consulta",
+      "description": "Reconoce síntomas y consejos al oído.",
+      "skill": "listening",
+      "order": 3,
+      "vocabIds": [
+        "w-sehat",
+        "w-bimar",
+        "w-davai",
+        "w-dard",
+        "w-aaram",
+        "w-neend",
+        "w-vyayam",
+        "w-khush"
+      ]
+    },
+    {
+      "id": "b1-m3-l4",
+      "moduleId": "b1-m3",
+      "title": "Expresión: describe cómo te sientes",
+      "description": "Explica síntomas y hábitos en hindi.",
+      "skill": "speaking",
+      "order": 4,
+      "vocabIds": [
+        "w-sehat",
+        "w-bimar",
+        "w-davai",
+        "w-dard",
+        "w-aaram",
+        "w-neend",
+        "w-vyayam",
+        "w-khush"
+      ]
     }
   ]
 }

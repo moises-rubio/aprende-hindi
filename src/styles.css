@@ -1047,6 +1047,35 @@ nav[aria-label='Ruta'] a:hover {
   font-size: 0.92rem;
 }
 
+.header-email {
+  text-decoration: none;
+}
+.header-email:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  border: none;
+  border-top: 1px dashed var(--color-border);
+  margin: 1.1rem 0;
+}
+
+.link-button.danger {
+  color: var(--color-error);
+}
+
+.btn-danger {
+  background: var(--color-error);
+  border-color: var(--color-error);
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-danger:hover:not(:disabled) {
+  filter: brightness(1.1);
+  border-color: var(--color-error);
+}
+
 .sync-banner {
   background: var(--color-warning-bg);
   border-bottom: 1px solid #eeddb0;
